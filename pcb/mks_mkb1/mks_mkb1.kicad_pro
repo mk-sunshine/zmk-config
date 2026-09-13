@@ -522,10 +522,14 @@
   },
   "pcbnew": {
     "last_paths": {
+      "gencad": "",
       "idf": "",
       "netlist": "",
       "plot": "",
+      "pos_files": "",
       "specctra_dsn": "",
+      "step": "",
+      "svg": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -648,7 +652,7 @@
         "uuid": "a01110a3-a326-4798-a058-407730985a8f"
       }
     ],
-    "used_designators": "D91-150",
+    "used_designators": "SW63-64",
     "variants": []
   },
   "sheets": [
