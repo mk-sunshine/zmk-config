@@ -652,7 +652,7 @@
         "uuid": "a01110a3-a326-4798-a058-407730985a8f"
       }
     ],
-    "used_designators": "SW63-64",
+    "used_designators": "SW63-64,#FLG10",
     "variants": []
   },
   "sheets": [
