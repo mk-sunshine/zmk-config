@@ -14466,6 +14466,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 57.15 464.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2e3d829c-3096-4d1d-a366-f669e735c65f")
 		)
@@ -14538,6 +14549,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 217.17 464.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C14663"
 			(at 217.17 464.82 0)
 			(hide yes)
 			(show_name no)
@@ -14653,6 +14675,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 201.93 406.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "61237086-cf60-4c0e-baa7-b1362f214441")
 		)
@@ -14725,6 +14758,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 325.12 287.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C19666"
 			(at 325.12 287.02 0)
 			(hide yes)
 			(show_name no)
@@ -14840,6 +14884,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 248.92 406.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "2d19517f-c804-4a93-ad6a-988e87e8a9a3")
 		)
@@ -14876,7 +14931,7 @@
 				)
 			)
 		)
-		(property "Value" "WS2812B-2020"
+		(property "Value" "SK6805-EC20"
 			(at 137.922 208.28 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14911,6 +14966,17 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 135.89 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 135.89 212.09 0)
 			(hide yes)
 			(show_name no)
@@ -14963,7 +15029,7 @@
 				)
 			)
 		)
-		(property "Value" "WS2812B-2020"
+		(property "Value" "SK6805-EC20"
 			(at 163.322 449.58 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14998,6 +15064,17 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 161.29 453.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 161.29 453.39 0)
 			(hide yes)
 			(show_name no)
@@ -15086,6 +15163,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 245.11 289.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C21190"
 			(at 245.11 289.56 0)
 			(hide yes)
 			(show_name no)
@@ -15278,6 +15366,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 218.44 147.32 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "0295ea71-bfe5-4d9b-96ba-7f4a533c2bb5")
 		)
@@ -15314,7 +15413,7 @@
 				)
 			)
 		)
-		(property "Value" "WS2812B-2020"
+		(property "Value" "SK6805-EC20"
 			(at 252.222 208.28 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15349,6 +15448,17 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 250.19 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 250.19 212.09 0)
 			(hide yes)
 			(show_name no)
@@ -15445,6 +15555,17 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 166.37 383.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ada9668b-b630-421e-9098-0f9748b604d3")
 		)
@@ -15517,6 +15638,17 @@
 			)
 		)
 		(property "Description" "8-bit serial in/out Shift Register 3-State Outputs"
+			(at 92.71 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 92.71 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -15673,6 +15805,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 264.16 349.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "3108e977-403e-424b-bf3c-9e802433ad5b")
 		)
@@ -15745,6 +15888,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 210.82 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25803"
 			(at 210.82 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -15835,6 +15989,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C23138 "
+			(at 35.56 453.39 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "622340a4-f1e1-48c9-bdd5-b6adc1ce9051")
 		)
@@ -15905,6 +16070,17 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 213.36 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 213.36 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -15997,6 +16173,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 170.18 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e3d7a734-f568-4c97-b792-f3fab71467c7")
 		)
@@ -16033,7 +16220,7 @@
 				)
 			)
 		)
-		(property "Value" "WS2812B-2020"
+		(property "Value" "SK6805-EC20"
 			(at 160.782 208.28 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16068,6 +16255,17 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 158.75 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 158.75 212.09 0)
 			(hide yes)
 			(show_name no)
@@ -16120,7 +16318,7 @@
 				)
 			)
 		)
-		(property "Value" "WS2812B-2020"
+		(property "Value" "SK6805-EC20"
 			(at 186.182 449.58 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16155,6 +16353,17 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 184.15 453.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 184.15 453.39 0)
 			(hide yes)
 			(show_name no)
@@ -16253,6 +16462,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C45783"
+			(at 203.2 271.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6486df92-e2ab-441d-bd28-6fbefe5e9d18")
 		)
@@ -16289,7 +16509,7 @@
 				)
 			)
 		)
-		(property "Value" "WS2812B-2020"
+		(property "Value" "SK6805-EC20"
 			(at 46.482 208.28 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16324,6 +16544,17 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 44.45 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 44.45 212.09 0)
 			(hide yes)
 			(show_name no)
@@ -16420,6 +16651,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25804"
+			(at 92.71 115.57 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "9efeb51d-1a39-4c0b-806f-bd9a6eafb263")
 		)
@@ -16456,7 +16698,7 @@
 				)
 			)
 		)
-		(property "Value" "WS2812B-2020"
+		(property "Value" "SK6805-EC20"
 			(at 369.062 449.58 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16491,6 +16733,17 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 367.03 453.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 367.03 453.39 0)
 			(hide yes)
 			(show_name no)
@@ -16587,6 +16840,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25804"
+			(at 83.82 358.14 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "2b6696da-1531-4ecb-a412-702540da7f76")
 		)
@@ -16657,6 +16921,17 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 182.88 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 182.88 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -16771,6 +17046,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 186.69 387.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7e52c424-8df6-45c9-9152-0dd6c4ef14b0")
 		)
@@ -16842,6 +17128,17 @@
 		)
 		(property "Description" "Inductor"
 			(at 224.79 264.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 224.79 264.16 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16955,6 +17252,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 156.21 387.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "bb89e319-4564-44d7-a09c-1f07bf8e3e58")
 		)
@@ -17026,6 +17334,17 @@
 		)
 		(property "Description" "Inductor"
 			(at 224.79 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 224.79 25.4 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17115,6 +17434,17 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 228.6 383.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a99aa6c4-ed12-48cb-a5a6-1a06e07d8d5b")
 		)
@@ -17151,7 +17481,7 @@
 				)
 			)
 		)
-		(property "Value" "WS2812B-2020"
+		(property "Value" "SK6805-EC20"
 			(at 117.602 449.58 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17186,6 +17516,17 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 115.57 453.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 115.57 453.39 0)
 			(hide yes)
 			(show_name no)
@@ -17306,6 +17647,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 203.2 147.32 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "b2339a84-db9b-4ee2-a756-e621828a1f27")
 		)
@@ -17376,6 +17728,17 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 259.08 383.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 259.08 383.54 0)
 			(hide yes)
 			(show_name no)
@@ -17490,6 +17853,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 217.17 349.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "66e9a4d7-07e1-461b-8b5d-0d2052844613")
 		)
@@ -17572,6 +17946,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 124.46 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "fc11abc5-b508-4a0d-bbee-0c2194b2390c")
 		)
@@ -17642,6 +18027,17 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 229.87 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 229.87 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -17734,6 +18130,17 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 224.79 278.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "6"
 			(uuid "15e107c8-94ee-4057-bb43-5e8fe72e6cca")
 		)
@@ -17816,6 +18223,17 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 213.36 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 213.36 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -17930,6 +18348,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 234.95 109.22 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a9633962-c772-4f46-b9dd-8e67826e005b")
 		)
@@ -18026,6 +18455,17 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 172.72 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C81598"
+			(at 172.72 128.27 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18139,6 +18579,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 233.68 349.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a18b3b51-114a-4952-85ce-1015a1a99971")
 		)
@@ -18235,6 +18686,17 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 203.2 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C81598"
+			(at 203.2 128.27 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18357,7 +18819,7 @@
 				)
 			)
 		)
-		(property "Value" "WS2812B-2020"
+		(property "Value" "SK6805-EC20"
 			(at 71.882 449.58 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18392,6 +18854,17 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 69.85 453.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 69.85 453.39 0)
 			(hide yes)
 			(show_name no)
@@ -18488,6 +18961,17 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 167.64 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e592d8fd-744d-4768-9d76-7c2e609f5287")
 		)
@@ -18558,6 +19042,17 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 181.61 345.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 181.61 345.44 0)
 			(hide yes)
 			(show_name no)
@@ -18648,6 +19143,17 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 245.11 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "92eef336-d18f-4b9e-9a3e-92ef48e301cc")
 		)
@@ -18718,6 +19224,17 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 181.61 364.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 181.61 364.49 0)
 			(hide yes)
 			(show_name no)
@@ -18808,6 +19325,17 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 196.85 383.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b1dea17e-df67-48f9-af64-dd44da32ac0c")
 		)
@@ -18844,7 +19372,7 @@
 				)
 			)
 		)
-		(property "Value" "WS2812B-2020"
+		(property "Value" "SK6805-EC20"
 			(at 343.662 208.28 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18879,6 +19407,17 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 341.63 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 341.63 212.09 0)
 			(hide yes)
 			(show_name no)
@@ -18977,6 +19516,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C23234"
+			(at 245.11 271.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "082f31fd-c6e8-4458-945c-e5bf4fc4f1e6")
 		)
@@ -19013,7 +19563,7 @@
 				)
 			)
 		)
-		(property "Value" "WS2812B-2020"
+		(property "Value" "SK6805-EC20"
 			(at 69.342 208.28 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19048,6 +19598,17 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 67.31 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 67.31 212.09 0)
 			(hide yes)
 			(show_name no)
@@ -19100,7 +19661,7 @@
 				)
 			)
 		)
-		(property "Value" "WS2812B-2020"
+		(property "Value" "SK6805-EC20"
 			(at 366.522 208.28 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19135,6 +19696,17 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 364.49 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 364.49 212.09 0)
 			(hide yes)
 			(show_name no)
@@ -19255,6 +19827,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 187.96 147.32 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7a8eb7a0-eebc-4b94-ba34-b20be9e48dd9")
 		)
@@ -19337,6 +19920,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 375.92 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f40246ab-efce-4bde-994d-785cdf016360")
 		)
@@ -19409,6 +20003,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 307.34 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C14663"
 			(at 307.34 223.52 0)
 			(hide yes)
 			(show_name no)
@@ -19523,6 +20128,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 172.72 109.22 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "378b25f1-d8b1-471c-b201-839ada7a533a")
 		)
@@ -19605,6 +20221,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25804"
+			(at 335.28 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "60ebdfa2-0d19-45c9-9242-676ec435264a")
 		)
@@ -19677,6 +20304,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 101.6 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C14663"
 			(at 101.6 223.52 0)
 			(hide yes)
 			(show_name no)
@@ -19783,6 +20421,17 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 233.68 406.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C81598"
+			(at 233.68 406.4 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19906,7 +20555,7 @@
 				)
 			)
 		)
-		(property "Value" "WS2812B-2020"
+		(property "Value" "SK6805-EC20"
 			(at 183.642 208.28 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19941,6 +20590,17 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 181.61 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 181.61 212.09 0)
 			(hide yes)
 			(show_name no)
@@ -20039,6 +20699,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25804"
+			(at 336.55 287.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "118b49bd-aed2-4ebb-a854-a332de5dc7d5")
 		)
@@ -20109,6 +20780,17 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 212.09 383.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 212.09 383.54 0)
 			(hide yes)
 			(show_name no)
@@ -20224,6 +20906,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 157.48 128.27 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "95322f9b-5ff1-40bf-8619-349da073688b")
 		)
@@ -20296,6 +20989,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 80.01 464.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C14663"
 			(at 80.01 464.82 0)
 			(hide yes)
 			(show_name no)
@@ -20386,6 +21090,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25804"
+			(at 331.47 271.78 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "293731a4-923e-4378-b1a6-76817846b305")
 		)
@@ -20457,6 +21172,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 83.82 337.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25804"
+			(at 83.82 337.82 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20546,6 +21272,17 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 181.61 383.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "162a441c-9503-4436-8851-590923e7821d")
 		)
@@ -20618,6 +21355,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 284.48 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C14663"
 			(at 284.48 223.52 0)
 			(hide yes)
 			(show_name no)
@@ -20733,6 +21481,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 218.44 128.27 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c691317e-8215-4b56-8162-f95987a5b869")
 		)
@@ -20769,7 +21528,7 @@
 				)
 			)
 		)
-		(property "Value" "WS2812B-2020"
+		(property "Value" "SK6805-EC20"
 			(at 206.502 208.28 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20804,6 +21563,17 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 204.47 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 204.47 212.09 0)
 			(hide yes)
 			(show_name no)
@@ -20902,6 +21672,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 125.73 464.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "40996117-f822-4cbf-9536-4648446e075d")
 		)
@@ -20972,6 +21753,17 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 212.09 364.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 212.09 364.49 0)
 			(hide yes)
 			(show_name no)
@@ -21054,6 +21846,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 148.59 464.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C14663"
 			(at 148.59 464.82 0)
 			(hide yes)
 			(show_name no)
@@ -21169,6 +21972,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 234.95 166.37 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "133ba6d7-8012-4fd1-8d13-42af79d30256")
 		)
@@ -21240,6 +22054,17 @@
 		)
 		(property "Description" "2 Channnels Power Mux with Manual and Priority Switchover, 1.6-5.5V Input Voltage, 2.5A Output Current, Ron 40 mOhm, SOT-583-8"
 			(at 351.79 275.336 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 351.79 274.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21347,6 +22172,17 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 198.12 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "20321a13-0770-4394-a35e-1d0d4a82b414")
 		)
@@ -21383,7 +22219,7 @@
 				)
 			)
 		)
-		(property "Value" "WS2812B-2020"
+		(property "Value" "SK6805-EC20"
 			(at 94.742 449.58 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21418,6 +22254,17 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 92.71 453.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 92.71 453.39 0)
 			(hide yes)
 			(show_name no)
@@ -21516,6 +22363,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25803"
+			(at 210.82 288.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "aefe0ac6-ce79-45e0-b41b-c98daf987e13")
 		)
@@ -21587,6 +22445,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 321.31 274.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C19666"
 			(at 321.31 274.32 0)
 			(hide yes)
 			(show_name no)
@@ -21702,6 +22571,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 217.17 368.3 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "56ffbd3c-47cf-496b-921a-d1a987e9adb4")
 		)
@@ -21774,6 +22654,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 50.8 287.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 50.8 287.02 0)
 			(hide yes)
 			(show_name no)
@@ -21880,7 +22771,7 @@
 				)
 			)
 		)
-		(property "Value" "WS2812B-2020"
+		(property "Value" "SK6805-EC20"
 			(at 254.762 449.58 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21915,6 +22806,17 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 252.73 453.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 252.73 453.39 0)
 			(hide yes)
 			(show_name no)
@@ -22011,6 +22913,17 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 152.4 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6630d854-0ff8-4a12-bcd9-8ac27823be92")
 		)
@@ -22091,6 +23004,17 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 245.11 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "75da32e4-9eaa-4ac8-8029-e7af85d9cc9f")
 		)
@@ -22161,6 +23085,17 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 260.35 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 260.35 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -22253,6 +23188,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 331.47 464.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "37f4e0a7-7655-4d6d-a2b5-1494c3c3eafc")
 		)
@@ -22325,6 +23271,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 55.88 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C14663"
 			(at 55.88 223.52 0)
 			(hide yes)
 			(show_name no)
@@ -22417,6 +23374,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C21190"
+			(at 245.11 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f2c212dc-0158-47bd-9736-6136f44e5e23")
 		)
@@ -22489,6 +23457,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 171.45 464.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C14663"
 			(at 171.45 464.82 0)
 			(hide yes)
 			(show_name no)
@@ -22579,6 +23558,17 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 198.12 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6d0dd0a2-826c-4736-81e6-4cde8551d692")
 		)
@@ -22649,6 +23639,17 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 196.85 345.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 196.85 345.44 0)
 			(hide yes)
 			(show_name no)
@@ -22763,6 +23764,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 201.93 349.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "19df95d9-4968-4ec4-b1f6-2b7cd9b30724")
 		)
@@ -22845,6 +23857,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 353.06 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "47e311de-d602-4653-9c01-6325e50aff02")
 		)
@@ -22915,6 +23938,17 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 151.13 345.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 151.13 345.44 0)
 			(hide yes)
 			(show_name no)
@@ -23030,6 +24064,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 201.93 368.3 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "70382234-4533-434f-bbca-11cce4679576")
 		)
@@ -23110,6 +24155,17 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 198.12 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e4589cb2-b125-4ea4-8aa6-5f3240c865b3")
 		)
@@ -23180,6 +24236,17 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 152.4 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 152.4 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -23294,6 +24361,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 203.2 109.22 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "4eceace0-0c9c-48b3-ba5d-1f4282c6af6c")
 		)
@@ -23364,6 +24442,17 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 243.84 364.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 243.84 364.49 0)
 			(hide yes)
 			(show_name no)
@@ -23454,6 +24543,17 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 166.37 345.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "406051a0-dd7b-41f7-a794-6d8bf087445a")
 		)
@@ -23524,6 +24624,17 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 167.64 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 167.64 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -23638,6 +24749,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 234.95 147.32 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1adea289-ae6a-4c8f-b27c-79c31ed0a6c4")
 		)
@@ -23708,6 +24830,17 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 228.6 402.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 228.6 402.59 0)
 			(hide yes)
 			(show_name no)
@@ -23798,6 +24931,17 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 152.4 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d4787ce0-5513-449c-bd12-2c52894539a1")
 		)
@@ -23878,6 +25022,17 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 166.37 364.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0c25f48a-3785-4f50-b64c-34a70f926f1d")
 		)
@@ -23914,7 +25069,7 @@
 				)
 			)
 		)
-		(property "Value" "WS2812B-2020"
+		(property "Value" "SK6805-EC20"
 			(at 300.482 449.58 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23949,6 +25104,17 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 298.45 453.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 298.45 453.39 0)
 			(hide yes)
 			(show_name no)
@@ -24035,6 +25201,17 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 198.12 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 198.12 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -24149,6 +25326,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 187.96 109.22 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3beb9d3b-a5f9-4545-88f7-936883060df4")
 		)
@@ -24219,6 +25407,17 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 151.13 383.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 151.13 383.54 0)
 			(hide yes)
 			(show_name no)
@@ -24334,6 +25533,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 172.72 166.37 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "b2ddfdb8-29f7-4924-9fb4-5948e012ff7a")
 		)
@@ -24438,6 +25648,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 171.45 349.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8cd1cb99-34e1-4fbf-81b0-cf3ef5d08434")
 		)
@@ -24520,6 +25741,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 118.11 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "822643f6-3191-43fa-b10b-250fc9d448a1")
 		)
@@ -24590,6 +25822,17 @@
 			)
 		)
 		(property "Description" "Switch, dual pole double throw, separate symbols"
+			(at 147.32 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 147.32 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -24694,6 +25937,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 261.62 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "02a00267-d665-4879-acfc-4a6322c10130")
 		)
@@ -24776,6 +26030,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C23234"
+			(at 245.11 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f6818ef5-4701-483a-8830-8bd76996983b")
 		)
@@ -24846,6 +26111,17 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x06, script generated"
+			(at 101.6 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 101.6 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -24948,6 +26224,17 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 146.05 269.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b5f46955-2fc3-417e-9bae-cd7beb501246")
 		)
@@ -25032,6 +26319,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 323.85 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C19666"
 			(at 323.85 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -25147,6 +26445,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 187.96 128.27 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d41ad969-b02b-4cde-9bc1-9a377594e3ed")
 		)
@@ -25229,6 +26538,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 110.49 391.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "fbd2eccd-563a-4ecd-a8c0-cb1990de2159")
 		)
@@ -25299,6 +26619,17 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 243.84 383.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 243.84 383.54 0)
 			(hide yes)
 			(show_name no)
@@ -25391,6 +26722,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 194.31 464.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8bb261df-2200-45af-8612-819e05d21924")
 		)
@@ -25461,6 +26803,17 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 151.13 402.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 151.13 402.59 0)
 			(hide yes)
 			(show_name no)
@@ -25654,6 +27007,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 217.17 387.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e1586674-f933-4078-9049-a375be54b0fc")
 		)
@@ -25758,6 +27122,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 172.72 147.32 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "cec073b6-9043-4588-940e-9fbfb0f1d761")
 		)
@@ -25794,7 +27169,7 @@
 				)
 			)
 		)
-		(property "Value" "WS2812B-2020"
+		(property "Value" "SK6805-EC20"
 			(at 115.062 208.28 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25829,6 +27204,17 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 113.03 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 113.03 212.09 0)
 			(hide yes)
 			(show_name no)
@@ -25927,6 +27313,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 147.32 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3b955aee-5d9a-47af-b87d-4e722a2d143c")
 		)
@@ -26009,6 +27406,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 330.2 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "bc618884-7802-44df-9f1a-e75f994da0d0")
 		)
@@ -26079,6 +27487,17 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 212.09 345.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 212.09 345.44 0)
 			(hide yes)
 			(show_name no)
@@ -26171,6 +27590,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C15852"
+			(at 368.3 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "34eb9a6c-78db-4fd5-9323-b7b93e2b1a7f")
 		)
@@ -26241,6 +27671,17 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 243.84 402.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 243.84 402.59 0)
 			(hide yes)
 			(show_name no)
@@ -26409,6 +27850,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25804"
+			(at 73.66 346.71 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "a96191c8-1a09-4334-b4c2-f5138ba078a6")
 		)
@@ -26479,6 +27931,17 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 245.11 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 245.11 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -26571,6 +28034,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 308.61 464.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "354efda3-ec91-4db1-9695-0c15668352d3")
 		)
@@ -26651,6 +28125,17 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 229.87 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c7114699-8d27-4e7f-b9e9-a2659a485dab")
 		)
@@ -26721,6 +28206,17 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 167.64 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 167.64 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -26835,6 +28331,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 248.92 349.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "b82094ee-fa3c-4e19-9c12-9111074594be")
 		)
@@ -26905,6 +28412,17 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 182.88 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 182.88 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -27072,6 +28590,17 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 213.36 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6b89c59a-92be-4535-9a3b-a2f8106c8fb8")
 		)
@@ -27099,7 +28628,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9d599fb3-b427-4262-aeb0-0d4d5a22070d")
-		(property "Reference" "LCSC1"
+		(property "Reference" "D_5B_1"
 			(at 239.0775 19.05 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27109,7 +28638,7 @@
 				)
 			)
 		)
-		(property "Value" "C81579"
+		(property "Value" "SS34"
 			(at 239.0775 21.59 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27152,6 +28681,17 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 238.76 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "01d38627-67be-4bd2-86ca-85caa71435ea")
 		)
@@ -27161,7 +28701,7 @@
 		(instances
 			(project "mks_mkb1"
 				(path "/a01110a3-a326-4798-a058-407730985a8f"
-					(reference "LCSC1")
+					(reference "D_5B_1")
 					(unit 1)
 				)
 			)
@@ -27223,6 +28763,17 @@
 		)
 		(property "Description" "2 Channnels Power Mux with Manual and Priority Switchover, 1.6-5.5V Input Voltage, 2.5A Output Current, Ron 40 mOhm, SOT-583-8"
 			(at 350.52 35.306 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 350.52 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27354,6 +28905,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 250.19 147.32 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "a9f365c6-1c9e-43f7-b5e8-3d335a6fc253")
 		)
@@ -27390,7 +28952,7 @@
 				)
 			)
 		)
-		(property "Value" "WS2812B-2020"
+		(property "Value" "SK6805-EC20"
 			(at 140.462 449.58 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27425,6 +28987,17 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 138.43 453.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 138.43 453.39 0)
 			(hide yes)
 			(show_name no)
@@ -27513,6 +29086,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 215.9 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C14663"
 			(at 215.9 223.52 0)
 			(hide yes)
 			(show_name no)
@@ -27628,6 +29212,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 217.17 406.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "1dd6995a-0e45-4278-bfc7-1ff85c52b6b6")
 		)
@@ -27708,6 +29303,17 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 196.85 364.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c8445683-7cc7-46ad-87f6-804c28aec3f1")
 		)
@@ -27744,7 +29350,7 @@
 				)
 			)
 		)
-		(property "Value" "WS2812B-2020"
+		(property "Value" "SK6805-EC20"
 			(at 209.042 449.58 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27779,6 +29385,17 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 207.01 453.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 207.01 453.39 0)
 			(hide yes)
 			(show_name no)
@@ -27899,6 +29516,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 186.69 349.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "986a36cf-fdcb-4243-9e40-c1c60cde99fd")
 		)
@@ -28004,6 +29632,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 264.16 387.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8ff0e972-2412-4538-8cd8-e29abe2538a0")
 		)
@@ -28084,6 +29723,17 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 152.4 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9285364f-6fc2-445e-a96d-e6a0c18d8f6f")
 		)
@@ -28154,6 +29804,17 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 181.61 402.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 181.61 402.59 0)
 			(hide yes)
 			(show_name no)
@@ -28269,6 +29930,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 218.44 166.37 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "4e7a87ae-2ef6-46a4-9bee-e00374b3b5ee")
 		)
@@ -28340,6 +30012,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 82.55 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25804"
+			(at 82.55 104.14 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28453,6 +30136,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 171.45 387.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "311354aa-5e22-480f-a608-5bb79b505a73")
 		)
@@ -28489,7 +30183,7 @@
 				)
 			)
 		)
-		(property "Value" "WS2812B-2020"
+		(property "Value" "SK6805-EC20"
 			(at 275.082 208.28 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28524,6 +30218,17 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 273.05 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 273.05 212.09 0)
 			(hide yes)
 			(show_name no)
@@ -28645,6 +30350,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 265.43 147.32 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c239825e-7845-4e57-a517-62b06f2714bb")
 		)
@@ -28740,6 +30456,17 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 157.48 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C81598"
+			(at 157.48 147.32 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28854,6 +30581,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 156.21 368.3 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "64b1fc6d-1236-44fb-b8e8-c9150403ceeb")
 		)
@@ -28950,6 +30688,17 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 156.21 406.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C81598"
+			(at 156.21 406.4 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29064,6 +30813,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 187.96 166.37 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "25854597-35ba-49b9-ab06-416d4a794b60")
 		)
@@ -29136,6 +30896,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 203.2 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C45783"
 			(at 203.2 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -29226,6 +30997,17 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 196.85 402.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "05f63d0a-c1a3-4290-b199-379186821ee9")
 		)
@@ -29262,7 +31044,7 @@
 				)
 			)
 		)
-		(property "Value" "WS2812B-2020"
+		(property "Value" "SK6805-EC20"
 			(at 277.622 449.58 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29297,6 +31079,17 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 275.59 453.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 275.59 453.39 0)
 			(hide yes)
 			(show_name no)
@@ -29395,6 +31188,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 238.76 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "42e88e67-6ab0-41d7-9600-6e7289aba2f2")
 		)
@@ -29477,6 +31281,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C15852"
+			(at 369.57 287.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a567a95a-57a1-4cf0-9ffd-82c9ff4e193b")
 		)
@@ -29549,6 +31364,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 50.8 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 50.8 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -29655,7 +31481,7 @@
 				)
 			)
 		)
-		(property "Value" "WS2812B-2020"
+		(property "Value" "SK6805-EC20"
 			(at 320.802 208.28 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29690,6 +31516,17 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 318.77 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 318.77 212.09 0)
 			(hide yes)
 			(show_name no)
@@ -29811,6 +31648,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 203.2 166.37 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c43a1fcb-1ee2-44a1-baab-c24b9f97d30e")
 		)
@@ -29847,7 +31695,7 @@
 				)
 			)
 		)
-		(property "Value" "WS2812B-2020"
+		(property "Value" "SK6805-EC20"
 			(at 49.022 449.58 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29882,6 +31730,17 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 46.99 453.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 46.99 453.39 0)
 			(hide yes)
 			(show_name no)
@@ -29970,6 +31829,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 261.62 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C45783"
 			(at 261.62 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -30085,6 +31955,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 157.48 166.37 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "aaa1886d-856a-4e17-99e8-60ecfe93d566")
 		)
@@ -30189,6 +32070,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 265.43 109.22 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "cd59d205-a8dc-4778-9365-fcdc31bfeb6e")
 		)
@@ -30261,6 +32153,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 193.04 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C14663"
 			(at 193.04 223.52 0)
 			(hide yes)
 			(show_name no)
@@ -30430,6 +32333,17 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 224.79 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "6"
 			(uuid "9c52f32b-8d1a-48cc-80ae-bae2aa88ed56")
 		)
@@ -30546,6 +32460,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 233.68 387.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "87c7e398-db70-4742-b024-6205b300d98b")
 		)
@@ -30626,6 +32551,17 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 151.13 364.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2977817f-15d2-4a28-a515-36a2025757f9")
 		)
@@ -30653,7 +32589,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c2f1f6a7-6c0a-45fa-98af-5559565a490f")
-		(property "Reference" "LCSC2"
+		(property "Reference" "D_5B2"
 			(at 239.0775 257.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30663,7 +32599,7 @@
 				)
 			)
 		)
-		(property "Value" "C81579"
+		(property "Value" "SS34"
 			(at 239.0775 260.35 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30706,6 +32642,17 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 238.76 264.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "aa1f4b48-2226-42e5-a029-4da0296192ea")
 		)
@@ -30715,7 +32662,7 @@
 		(instances
 			(project "mks_mkb1"
 				(path "/a01110a3-a326-4798-a058-407730985a8f"
-					(reference "LCSC2")
+					(reference "D_5B2")
 					(unit 1)
 				)
 			)
@@ -30776,6 +32723,17 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 228.6 364.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 228.6 364.49 0)
 			(hide yes)
 			(show_name no)
@@ -30891,6 +32849,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 248.92 368.3 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "b915dfc9-b27c-43eb-81f0-b4b97e1d1c48")
 		)
@@ -30996,6 +32965,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 234.95 128.27 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "07978372-a4aa-43c7-b0f7-96c30e691b7d")
 		)
@@ -31078,6 +33058,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 354.33 464.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "fe1af3d9-bfc2-43b3-bee7-65a5e2f2e072")
 		)
@@ -31114,7 +33105,7 @@
 				)
 			)
 		)
-		(property "Value" "WS2812B-2020"
+		(property "Value" "SK6805-EC20"
 			(at 92.202 208.28 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31149,6 +33140,17 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 90.17 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 90.17 212.09 0)
 			(hide yes)
 			(show_name no)
@@ -31237,6 +33239,17 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 147.32 276.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 147.32 276.86 0)
 			(hide yes)
 			(show_name no)
@@ -31352,6 +33365,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 171.45 368.3 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "29e216f8-7b50-4c22-89d3-f631a61ed95d")
 		)
@@ -31422,6 +33446,17 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 167.64 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 167.64 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -31514,6 +33549,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 285.75 464.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "fc05ceae-1531-4e55-a6ce-dbff7b06d39e")
 		)
@@ -31584,6 +33630,17 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 229.87 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 229.87 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -31699,6 +33756,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 186.69 406.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e4f22143-29c9-4b49-8de9-d8a7a64e8a73")
 		)
@@ -31804,6 +33872,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 171.45 406.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "5b212a64-e71e-4e67-96c0-32f3f44f84f6")
 		)
@@ -31875,6 +33954,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 330.2 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25804"
+			(at 330.2 31.75 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31964,6 +34054,17 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 182.88 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8d5e8573-2cef-4750-b8ee-1efbf954d8ac")
 		)
@@ -32034,6 +34135,17 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 229.87 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 229.87 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -32148,6 +34260,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 157.48 109.22 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c8cbea50-5684-4c12-a947-c0c669d66300")
 		)
@@ -32220,6 +34343,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 240.03 464.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C14663"
 			(at 240.03 464.82 0)
 			(hide yes)
 			(show_name no)
@@ -32312,6 +34446,17 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 147.32 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "8d782fee-42b8-4da9-8aa0-9181da6b8993")
 		)
@@ -32348,7 +34493,7 @@
 				)
 			)
 		)
-		(property "Value" "WS2812B-2020"
+		(property "Value" "SK6805-EC20"
 			(at 323.342 449.58 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32383,6 +34528,17 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 321.31 453.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 321.31 453.39 0)
 			(hide yes)
 			(show_name no)
@@ -32469,6 +34625,17 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 213.36 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 213.36 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -32583,6 +34750,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 248.92 387.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "de4abd93-8cc6-4369-bdc3-a88a4719551c")
 		)
@@ -32653,6 +34831,17 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 182.88 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 182.88 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -32745,6 +34934,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 377.19 464.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b2db1a18-e027-4034-a30f-c38d6c729670")
 		)
@@ -32815,6 +35015,17 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 212.09 402.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 212.09 402.59 0)
 			(hide yes)
 			(show_name no)
@@ -32896,6 +35107,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 320.04 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C19666"
 			(at 320.04 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -33011,6 +35233,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 186.69 368.3 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5eb7d28b-5223-4271-8d00-52bd24a35723")
 		)
@@ -33115,6 +35348,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 250.19 109.22 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "1170ffd8-d784-4411-904b-57cd59aa59fe")
 		)
@@ -33151,7 +35395,7 @@
 				)
 			)
 		)
-		(property "Value" "WS2812B-2020"
+		(property "Value" "SK6805-EC20"
 			(at 297.942 208.28 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33186,6 +35430,17 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 295.91 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 295.91 212.09 0)
 			(hide yes)
 			(show_name no)
@@ -33282,6 +35537,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C23138 "
+			(at 33.02 212.09 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "bd0d7617-fca7-45b8-bf48-ab9ddbf783ca")
 		)
@@ -33353,6 +35619,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 82.55 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25804"
+			(at 82.55 83.82 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33434,6 +35711,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 261.62 271.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C45783"
 			(at 261.62 271.78 0)
 			(hide yes)
 			(show_name no)
@@ -33548,6 +35836,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 218.44 109.22 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "98d20392-9adb-4616-a8bc-640e789dd0ce")
 		)
@@ -33630,6 +35929,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 78.74 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "547e008f-811e-4352-a1e6-975853334522")
 		)
@@ -33702,6 +36012,17 @@
 			)
 		)
 		(property "Description" "8-bit serial in/out Shift Register 3-State Outputs"
+			(at 83.82 391.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 83.82 391.16 0)
 			(hide yes)
 			(show_name no)
@@ -33858,6 +36179,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 201.93 387.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "1695df91-874b-407f-b803-ed6669c8747e")
 		)
@@ -33929,6 +36261,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 92.71 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25804"
+			(at 92.71 95.25 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34043,6 +36386,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 233.68 368.3 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6e14d436-0c32-49e8-a760-531238b29eb8")
 		)
@@ -34079,7 +36433,7 @@
 				)
 			)
 		)
-		(property "Value" "WS2812B-2020"
+		(property "Value" "SK6805-EC20"
 			(at 231.902 449.58 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34114,6 +36468,17 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 229.87 453.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 229.87 453.39 0)
 			(hide yes)
 			(show_name no)
@@ -34234,6 +36599,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 156.21 349.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "084af341-622f-481a-9b44-2298cbe7a85a")
 		)
@@ -34304,6 +36680,17 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 259.08 345.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 259.08 345.44 0)
 			(hide yes)
 			(show_name no)
@@ -34386,6 +36773,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 102.87 464.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C14663"
 			(at 102.87 464.82 0)
 			(hide yes)
 			(show_name no)
@@ -34501,6 +36899,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 250.19 166.37 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "369582f5-c245-4022-b878-90eb51eacd17")
 		)
@@ -34573,6 +36982,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 262.89 464.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C14663"
 			(at 262.89 464.82 0)
 			(hide yes)
 			(show_name no)
@@ -34740,6 +37160,17 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 166.37 402.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "cf6700c5-feb8-45d5-8605-939d90cfff91")
 		)
@@ -34820,6 +37251,17 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 228.6 345.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1ae12e45-69e7-4685-903f-418fe699b7f4")
 		)
@@ -34856,7 +37298,7 @@
 				)
 			)
 		)
-		(property "Value" "WS2812B-2020"
+		(property "Value" "SK6805-EC20"
 			(at 229.362 208.28 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34891,6 +37333,17 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 227.33 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 227.33 212.09 0)
 			(hide yes)
 			(show_name no)
@@ -34987,6 +37440,17 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 260.35 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c0e37051-9904-41a3-8a52-95f89f59b07f")
 		)
@@ -35023,7 +37487,7 @@
 				)
 			)
 		)
-		(property "Value" "WS2812B-2020"
+		(property "Value" "SK6805-EC20"
 			(at 346.202 449.58 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35058,6 +37522,17 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 344.17 453.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 344.17 453.39 0)
 			(hide yes)
 			(show_name no)
@@ -35154,6 +37629,17 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 243.84 345.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "749d58ff-e966-4f8e-a07a-2d1d7a5e2973")
 		)
@@ -35224,6 +37710,17 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 245.11 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 245.11 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -35305,6 +37802,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 73.66 326.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25804"
+			(at 73.66 326.39 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35419,6 +37927,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C81598"
+			(at 250.19 128.27 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "2eaa4142-9777-4287-9e17-663d8ba54c3f")
 		)
@@ -35489,6 +38008,17 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x06, script generated"
+			(at 101.6 271.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 101.6 271.78 0)
 			(hide yes)
 			(show_name no)
