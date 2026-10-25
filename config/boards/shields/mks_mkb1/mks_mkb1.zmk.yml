@@ -1,0 +1,15 @@
+file_format: "1"
+id: mks_mkb1
+name: "MKS_MKB1"
+type: keyboard
+siblings:
+  - mks_mkb1_left
+  - mks_mkb1_right
+features:
+  - rgb_underglow
+  - pointing
+outputs:
+  - usb
+  - ble
+boards:
+  - seeeduino_xiao_ble

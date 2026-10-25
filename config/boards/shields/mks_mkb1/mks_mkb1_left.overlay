@@ -1,0 +1,31 @@
+#include "mks_mkb1.dtsi"
+
+/ {
+    chosen {
+        zmk,kscan = &kscan0;
+    };
+};
+
+/* XIAO BLEのSPI（SPI0 / &spi0）を利用して74HC595を定義 */
+&spi0 {
+    compatible = "nordic,nrf-spim";
+    status = "okay";
+    
+    /* 74HC595のピンアサイン */
+    sck-pin = <0>;  // D0ピン：SRCLK (Serial Clock)
+    mosi-pin = <2>; // D2ピン：SER (Serial Data Input)
+    /* RCLK (Latch) はSPIのCS(Chip Select)ピンとして定義します */
+    cs-gpios = <&xiaoble_d 1 GPIO_ACTIVE_LOW>; // D1ピン：RCLK
+
+    /* シフトレジスタをGPIOエクスパンダとして動作させるノード定義 */
+    shift_reg: 74hc595@0 {
+        compatible = "st,74hc595";
+        reg = <0>;
+        label = "SHIFT_REG";
+        /* 8ビット分の出力を宣言 */
+        gpio-controller;
+        #gpio-cells = <2>;
+        ngpios = <8>;
+        spi-max-frequency = <1000000>;
+    };
+};

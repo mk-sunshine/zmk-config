@@ -1,0 +1,7 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "mks_lib") (type "KiCad") (uri "${KIPRJMOD}/mks_lib.pretty") (options "") (descr ""))
+	(lib (name "mks_mkb1") (type "KiCad") (uri "C:/Users/mksun/mks_zmk/pcb/mks_mkb1.pretty") (options "") (descr ""))
+	(lib (name "Mks_Library") (type "KiCad") (uri "${KIPRJMOD}/Mks_Library.pretty") (options "") (descr ""))
+	(lib (name "Mks_Library") (type "KiCad") (uri "${KIPRJMOD}/Mks_Library.pretty") (options "") (descr ""))
+)

@@ -1,0 +1,87 @@
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/bt.h>
+
+/* レイヤー定義 */
+#define BASE 0
+#define LOWER 1
+#define RAISE 2
+
+/ {
+    keymap {
+        compatible = "zmk,keymap";
+
+        /*
+         * BASE レイヤー (0)
+         * 前段階で定義した matrix_transform の map 順（左手30キー -> 右手30キー）に完全一致させています。
+         */
+        default_layer {
+            bindings = <
+                /* ================== 左手側 (SW1 〜 SW30) ================== */
+                &kp F12   &kp F1   &kp F2   &kp F3    &kp F4   &kp F5 
+                &kp ESC   &kp Q    &kp W    &kp E     &kp R    &kp T  
+                &kp TAB   &kp A    &kp S    &kp D     &kp F    &kp G  
+                &kp LSHFT &kp Z    &kp X    &kp C     &kp V    &kp B  
+                &kp LCTRL &kp LWIN &kp LALT &mo LOWER &kp SPACE &mo RAISE
+
+                /* ================== 右手側 (SW31 〜 SW60) ================== */
+                &kp F6   &kp F7   &kp F8   &kp F9   &kp F10  &kp F11
+                &kp Y    &kp U    &kp I    &kp O    &kp P    &kp BSPC
+                &kp H    &kp J    &kp K    &kp L    &kp BSLH &kp ENTER
+                &kp N    &kp M    &kp COMMA &kp DOT &kp UP   &kp DEL
+                /* 特殊位置（COL6 / COL7 に配置されたキー） */
+                &kp LEFT  &kp RIGHT &kp RALT &kp LEFT
+                &kp DOWN  &kp RIGHT
+            >;
+        };
+
+        /*
+         * LOWER レイヤー (1)
+         * 左手の最下段内側のキー(mo LOWER)を押している間の設定。
+         * ここに Bluetooth の端末切替（5端末分）をアサインしています。
+         */
+        lower_layer {
+            bindings = <
+                /* ================== 左手側 ================== */
+                &none        &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4
+                &none        &none        &none        &none        &none        &none        
+                &none        &none        &none        &none        &none        &none        
+                &none        &none        &none        &none        &none        &none        
+                &trans       &trans       &trans       &trans
+                &bt BT_CLR   &trans
+
+                /* ================== 右手側 ================== */
+                &none        &none        &none        &none        &none        &none        
+                &none        &none        &none        &none        &none        &none        
+                &none        &none        &none        &none        &none        &none        
+                &none        &none        &none        &none        &none        &none        
+                &none        &none        &none        &none        
+                &none        &none        
+            >;
+        };
+
+        /*
+         * RAISE レイヤー (2)
+         * 必要に応じてキーを追加してください（現在はすべて透過・無効に設定）
+         */
+        raise_layer {
+            bindings = <
+                /* ================== 左手側 ================== */
+                &none        &none        &none        &none        &none        &none        
+                &none        &none        &none        &none        &none        &none        
+                &none        &none        &none        &none        &none        &none        
+                &none        &none        &none        &none        &none        &none        
+                &trans       &trans       &trans       &trans
+                &trans       &trans
+
+                /* ================== 右手側 ================== */
+                &none        &none        &none        &none        &none        &none        
+                &none        &none        &none        &none        &none        &none        
+                &none        &none        &none        &none        &none        &none        
+                &none        &none        &none        &none        &none        &none        
+                &none        &none        &none        &none        
+                &none        &none        
+            >;
+        };
+    };
+};

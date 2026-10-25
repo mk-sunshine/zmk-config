@@ -1724,7 +1724,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "LED:WS2812B-2020"
+		(symbol "LED:SK6805"
 			(pin_names
 				(offset 0.254)
 			)
@@ -1733,29 +1733,27 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 5.08 5.715 0)
+			(property "Reference" "D61"
+				(at 1.778 7.366 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify right bottom)
 				)
 			)
-			(property "Value" "WS2812B-2020"
-				(at 1.27 -5.715 0)
+			(property "Value" "SK6805-EC20"
+				(at 1.778 4.826 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
-			(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(property "Footprint" "LED_SMD:LED_SK6805_PLCC4_2.4x2.7mm_P1.3mm"
 				(at 1.27 -7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1767,7 +1765,7 @@
 					(justify left top)
 				)
 			)
-			(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
+			(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/3484/3484_Datasheet.pdf"
 				(at 2.54 -9.525 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1779,7 +1777,7 @@
 					(justify left top)
 				)
 			)
-			(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(property "Description" "RGB LED with integrated controller"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1801,7 +1799,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "LED*WS2812*-2020_PLCC4*"
+			(property "ki_fp_filters" "LED*SK6805*PLCC*2.4x2.7mm*P1.3mm*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1812,7 +1810,7 @@
 					)
 				)
 			)
-			(symbol "WS2812B-2020_0_0"
+			(symbol "SK6805_0_0"
 				(text "RGB"
 					(at 2.286 -4.191 0)
 					(effects
@@ -1822,7 +1820,7 @@
 					)
 				)
 			)
-			(symbol "WS2812B-2020_0_1"
+			(symbol "SK6805_0_1"
 				(polyline
 					(pts
 						(xy 1.27 -2.54) (xy 1.778 -2.54)
@@ -1919,25 +1917,7 @@
 					)
 				)
 			)
-			(symbol "WS2812B-2020_1_1"
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "DOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
+			(symbol "SK6805_1_1"
 				(pin power_in line
 					(at 0 -7.62 90)
 					(length 2.54)
@@ -1948,7 +1928,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1966,7 +1946,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1978,6 +1958,24 @@
 					(at 0 7.62 270)
 					(length 2.54)
 					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "DOUT"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -14911,8 +14909,8 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:WS2812B-2020")
-		(at 135.89 212.09 0)
+		(lib_id "LED:SK6805")
+		(at 44.45 212.09 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14920,9 +14918,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "06f97ade-12a9-4052-b11a-c50dad52c116")
-		(property "Reference" "D65"
-			(at 137.922 205.74 0)
+		(uuid "05b8539f-a39c-4f7f-835c-38554e9b700f")
+		(property "Reference" "D61"
+			(at 46.228 204.724 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14932,7 +14930,7 @@
 			)
 		)
 		(property "Value" "SK6805-EC20"
-			(at 137.922 208.28 0)
+			(at 46.228 207.264 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14941,8 +14939,8 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
-			(at 137.16 219.71 0)
+		(property "Footprint" "Mks_Library:SK6805-EC20"
+			(at 45.72 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14953,8 +14951,8 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
-			(at 138.43 221.615 0)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/3484/3484_Datasheet.pdf"
+			(at 46.99 221.615 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14965,8 +14963,8 @@
 				(justify left top)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
-			(at 135.89 212.09 0)
+		(property "Description" "RGB LED with integrated controller"
+			(at 44.45 212.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14975,132 +14973,23 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "LCSC" ""
-			(at 135.89 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "9837ebd5-6c9f-4f6f-85a7-a3b63c47d448")
-		)
-		(pin "3"
-			(uuid "5d63b655-99a8-4e33-8863-485cabfaeb96")
-		)
-		(pin "2"
-			(uuid "12937253-e8ba-4a7f-8ecb-5c8cdedded1a")
 		)
 		(pin "1"
-			(uuid "0380badd-b08c-4e07-9a31-8af7eaa2bbbf")
+			(uuid "745d4872-cffd-47ab-bb4e-1129cd7b2ec8")
+		)
+		(pin "2"
+			(uuid "b61bede3-69bd-4df4-bba9-0c9a67b8d1b5")
+		)
+		(pin "3"
+			(uuid "fe689e21-af61-44ec-b651-97555332f781")
+		)
+		(pin "4"
+			(uuid "4f8a90ea-09ef-4a6b-b0d0-f4572902ac3d")
 		)
 		(instances
 			(project "mks_mkb1"
 				(path "/a01110a3-a326-4798-a058-407730985a8f"
-					(reference "D65")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:WS2812B-2020")
-		(at 161.29 453.39 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "07138b2c-68c0-41e2-860a-256bea841a10")
-		(property "Reference" "D81"
-			(at 163.322 447.04 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SK6805-EC20"
-			(at 163.322 449.58 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
-			(at 162.56 461.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
-			(at 163.83 462.915 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
-			(at 161.29 453.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" ""
-			(at 161.29 453.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "09c058fa-29ab-4c5f-ace2-f8fc04d3550c")
-		)
-		(pin "3"
-			(uuid "60fab01a-8d6d-4d7d-bf82-8e9f3bbf2edc")
-		)
-		(pin "2"
-			(uuid "048edf46-5a18-44f9-b62f-66cca758191e")
-		)
-		(pin "1"
-			(uuid "9ef888d4-9ceb-40fa-a818-64e777251105")
-		)
-		(instances
-			(project "mks_mkb1"
-				(path "/a01110a3-a326-4798-a058-407730985a8f"
-					(reference "D81")
+					(reference "D61")
 					(unit 1)
 				)
 			)
@@ -15387,104 +15276,6 @@
 			(project "mks_mkb1"
 				(path "/a01110a3-a326-4798-a058-407730985a8f"
 					(reference "D23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:WS2812B-2020")
-		(at 250.19 212.09 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0d753744-f269-442f-95dd-c3ac3f7ebdad")
-		(property "Reference" "D70"
-			(at 252.222 205.74 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SK6805-EC20"
-			(at 252.222 208.28 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
-			(at 251.46 219.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
-			(at 252.73 221.615 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
-			(at 250.19 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" ""
-			(at 250.19 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "1024ebd8-421c-4acc-b500-c49f8fdb9a14")
-		)
-		(pin "3"
-			(uuid "7507b608-36f0-42d3-b6ce-88a62ba87b2a")
-		)
-		(pin "2"
-			(uuid "3b732214-7f18-4541-b94f-bda18d8798e1")
-		)
-		(pin "1"
-			(uuid "f5e61196-37ff-4dc9-a5a4-c32dc83400b0")
-		)
-		(instances
-			(project "mks_mkb1"
-				(path "/a01110a3-a326-4798-a058-407730985a8f"
-					(reference "D70")
 					(unit 1)
 				)
 			)
@@ -16200,8 +15991,8 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:WS2812B-2020")
-		(at 158.75 212.09 0)
+		(lib_id "LED:SK6805")
+		(at 138.43 453.39 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16209,9 +16000,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "13ad7c66-c30a-4999-8ccd-591aa903cc41")
-		(property "Reference" "D66"
-			(at 160.782 205.74 0)
+		(uuid "17394fdb-8411-4c1b-8450-2442e1c54f0a")
+		(property "Reference" "D80"
+			(at 140.208 446.024 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16221,7 +16012,7 @@
 			)
 		)
 		(property "Value" "SK6805-EC20"
-			(at 160.782 208.28 0)
+			(at 140.208 448.564 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16230,8 +16021,8 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
-			(at 160.02 219.71 0)
+		(property "Footprint" "Mks_Library:SK6805-EC20"
+			(at 139.7 461.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16242,8 +16033,8 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
-			(at 161.29 221.615 0)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/3484/3484_Datasheet.pdf"
+			(at 140.97 462.915 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16254,8 +16045,8 @@
 				(justify left top)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
-			(at 158.75 212.09 0)
+		(property "Description" "RGB LED with integrated controller"
+			(at 138.43 453.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16264,132 +16055,23 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "LCSC" ""
-			(at 158.75 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "45ca822b-9e76-409b-8ff3-f6ba632f4751")
-		)
-		(pin "3"
-			(uuid "95cba6d6-d547-4aa7-a78b-67adf01289d7")
-		)
-		(pin "2"
-			(uuid "4953be88-f53e-4bfb-9d2c-9574abd5bdd1")
 		)
 		(pin "1"
-			(uuid "4c1e36af-94a7-4db5-aea9-afd0f40ee609")
+			(uuid "7c54352f-8f05-44ce-b386-3b63c29202b6")
+		)
+		(pin "2"
+			(uuid "f7368f1c-d94d-4d96-8a37-fa174b17da45")
+		)
+		(pin "3"
+			(uuid "c38f0a8d-ef39-48ee-a2ae-cc3bf88621e3")
+		)
+		(pin "4"
+			(uuid "9454299a-ffea-4732-b825-c05a4e19b78b")
 		)
 		(instances
 			(project "mks_mkb1"
 				(path "/a01110a3-a326-4798-a058-407730985a8f"
-					(reference "D66")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:WS2812B-2020")
-		(at 184.15 453.39 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "17732d61-625b-4b38-8003-1c93d80e412e")
-		(property "Reference" "D82"
-			(at 186.182 447.04 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SK6805-EC20"
-			(at 186.182 449.58 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
-			(at 185.42 461.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
-			(at 186.69 462.915 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
-			(at 184.15 453.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" ""
-			(at 184.15 453.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "b38be3a0-cfb9-4994-a6b2-dfd36b499057")
-		)
-		(pin "3"
-			(uuid "73846e5e-7280-4786-ac51-8825bb6c5eb8")
-		)
-		(pin "2"
-			(uuid "027e76aa-9101-453c-b613-e82815fd6a7e")
-		)
-		(pin "1"
-			(uuid "260bfb56-abd0-4637-9c99-d02feb46845f")
-		)
-		(instances
-			(project "mks_mkb1"
-				(path "/a01110a3-a326-4798-a058-407730985a8f"
-					(reference "D82")
+					(reference "D80")
 					(unit 1)
 				)
 			)
@@ -16489,8 +16171,8 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:WS2812B-2020")
-		(at 44.45 212.09 0)
+		(lib_id "LED:SK6805")
+		(at 344.17 453.39 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16498,9 +16180,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "192b7b78-d555-4d59-ab64-a39d54e509fa")
-		(property "Reference" "D61"
-			(at 46.482 205.74 0)
+		(uuid "1dcc09e7-c6a9-43c2-bd4d-d5be9c298448")
+		(property "Reference" "D89"
+			(at 345.948 446.024 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16510,7 +16192,7 @@
 			)
 		)
 		(property "Value" "SK6805-EC20"
-			(at 46.482 208.28 0)
+			(at 345.948 448.564 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16519,8 +16201,8 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
-			(at 45.72 219.71 0)
+		(property "Footprint" "Mks_Library:SK6805-EC20"
+			(at 345.44 461.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16531,8 +16213,8 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
-			(at 46.99 221.615 0)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/3484/3484_Datasheet.pdf"
+			(at 346.71 462.915 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16543,8 +16225,8 @@
 				(justify left top)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
-			(at 44.45 212.09 0)
+		(property "Description" "RGB LED with integrated controller"
+			(at 344.17 453.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16553,34 +16235,23 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "LCSC" ""
-			(at 44.45 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "f015f0b4-e3a6-4521-951d-9b4e681f7a94")
-		)
-		(pin "3"
-			(uuid "c3a6f355-e5c9-4a7f-bad0-5d29ad9f47d2")
-		)
-		(pin "2"
-			(uuid "d243bf9c-2dc7-4323-907d-712d14ccb1f1")
 		)
 		(pin "1"
-			(uuid "1d839c85-2e63-4970-a004-a571d70b6c89")
+			(uuid "8e2897e2-e6e0-4145-aa89-2b4a96e808ed")
+		)
+		(pin "2"
+			(uuid "605ee0a3-b018-4418-84b0-f16a9d7d6cb4")
+		)
+		(pin "3"
+			(uuid "c70e88ed-39c6-4f96-85cb-b4c863c4de63")
+		)
+		(pin "4"
+			(uuid "d7e0872f-68dc-4a58-876c-8e88113b9c95")
 		)
 		(instances
 			(project "mks_mkb1"
 				(path "/a01110a3-a326-4798-a058-407730985a8f"
-					(reference "D61")
+					(reference "D89")
 					(unit 1)
 				)
 			)
@@ -16672,104 +16343,6 @@
 			(project "mks_mkb1"
 				(path "/a01110a3-a326-4798-a058-407730985a8f"
 					(reference "R_DM4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:WS2812B-2020")
-		(at 367.03 453.39 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2061498d-4dc1-40aa-b715-e5deaf0634f4")
-		(property "Reference" "D90"
-			(at 369.062 447.04 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SK6805-EC20"
-			(at 369.062 449.58 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
-			(at 368.3 461.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
-			(at 369.57 462.915 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
-			(at 367.03 453.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" ""
-			(at 367.03 453.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "fe5dc26e-57df-42e0-ad91-af67594fd07b")
-		)
-		(pin "3"
-			(uuid "3cf73046-63fc-4ec6-b7b0-10dd1edb511d")
-		)
-		(pin "2"
-			(uuid "9f296b47-daaf-409e-8cfb-6dba388c1c6f")
-		)
-		(pin "1"
-			(uuid "332b181b-9760-492d-9637-3bccab635195")
-		)
-		(instances
-			(project "mks_mkb1"
-				(path "/a01110a3-a326-4798-a058-407730985a8f"
-					(reference "D90")
 					(unit 1)
 				)
 			)
@@ -17455,104 +17028,6 @@
 			(project "mks_mkb1"
 				(path "/a01110a3-a326-4798-a058-407730985a8f"
 					(reference "SW58")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:WS2812B-2020")
-		(at 115.57 453.39 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2a7e0cc9-2e7d-4e5b-a30d-60490d19155a")
-		(property "Reference" "D79"
-			(at 117.602 447.04 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SK6805-EC20"
-			(at 117.602 449.58 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
-			(at 116.84 461.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
-			(at 118.11 462.915 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
-			(at 115.57 453.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" ""
-			(at 115.57 453.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "1e9bdba7-12ba-41ea-8abe-fb373e8ea4e9")
-		)
-		(pin "3"
-			(uuid "b69c6349-838b-4d8c-9793-44102a15c04b")
-		)
-		(pin "2"
-			(uuid "23ca1a01-07c6-4304-a7d6-cb0f6dc2119d")
-		)
-		(pin "1"
-			(uuid "7030bfa6-fd21-4933-a88a-db1c6713c132")
-		)
-		(instances
-			(project "mks_mkb1"
-				(path "/a01110a3-a326-4798-a058-407730985a8f"
-					(reference "D79")
 					(unit 1)
 				)
 			)
@@ -18799,8 +18274,8 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:WS2812B-2020")
-		(at 69.85 453.39 0)
+		(lib_id "LED:SK6805")
+		(at 298.45 453.39 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18808,9 +18283,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "355beb17-e7d1-4460-8a39-386e7a9d6419")
-		(property "Reference" "D77"
-			(at 71.882 447.04 0)
+		(uuid "34b0f659-c45b-4f43-81fc-c9ee242ba309")
+		(property "Reference" "D87"
+			(at 300.228 446.024 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18820,7 +18295,7 @@
 			)
 		)
 		(property "Value" "SK6805-EC20"
-			(at 71.882 449.58 0)
+			(at 300.228 448.564 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18829,8 +18304,8 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
-			(at 71.12 461.01 0)
+		(property "Footprint" "Mks_Library:SK6805-EC20"
+			(at 299.72 461.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18841,8 +18316,8 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
-			(at 72.39 462.915 0)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/3484/3484_Datasheet.pdf"
+			(at 300.99 462.915 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18853,8 +18328,8 @@
 				(justify left top)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
-			(at 69.85 453.39 0)
+		(property "Description" "RGB LED with integrated controller"
+			(at 298.45 453.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18863,34 +18338,23 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "LCSC" ""
-			(at 69.85 453.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "907b79d2-85fb-4f0d-9e93-f8162cdb2ca4")
-		)
-		(pin "3"
-			(uuid "aca21b5a-9899-4aaa-bb0a-e62e30d2c85b")
-		)
-		(pin "2"
-			(uuid "9b4f35e8-48a4-4b51-9f26-21f7746e4189")
 		)
 		(pin "1"
-			(uuid "a1f732ac-492e-45ee-b7e3-ba5a7e2d803b")
+			(uuid "a1fd6a8c-b06f-4ba3-abe9-84226aaadb8e")
+		)
+		(pin "2"
+			(uuid "6afe4eac-0a56-4f70-889f-582e28191eb8")
+		)
+		(pin "3"
+			(uuid "65c2443e-6d56-4ad0-be8e-c657169c12ac")
+		)
+		(pin "4"
+			(uuid "d924dbf2-6fa1-4b89-a966-20fa89b4a92f")
 		)
 		(instances
 			(project "mks_mkb1"
 				(path "/a01110a3-a326-4798-a058-407730985a8f"
-					(reference "D77")
+					(reference "D87")
 					(unit 1)
 				)
 			)
@@ -19352,104 +18816,6 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:WS2812B-2020")
-		(at 341.63 212.09 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3df025df-4503-47b1-9d35-e8c45d1b5d4b")
-		(property "Reference" "D74"
-			(at 343.662 205.74 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SK6805-EC20"
-			(at 343.662 208.28 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
-			(at 342.9 219.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
-			(at 344.17 221.615 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
-			(at 341.63 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" ""
-			(at 341.63 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "d2f4bce2-9549-485c-b2b0-854c6e3e2007")
-		)
-		(pin "3"
-			(uuid "bf5fbbb7-087c-42c5-89a4-7ab81fe894ba")
-		)
-		(pin "2"
-			(uuid "f0ba9e6e-60ac-4375-b0f6-16aa76fc12e2")
-		)
-		(pin "1"
-			(uuid "5872a2ce-5d27-4b13-b5e3-afeb94a2ee21")
-		)
-		(instances
-			(project "mks_mkb1"
-				(path "/a01110a3-a326-4798-a058-407730985a8f"
-					(reference "D74")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 245.11 271.78 0)
 		(unit 1)
@@ -19537,202 +18903,6 @@
 			(project "mks_mkb1"
 				(path "/a01110a3-a326-4798-a058-407730985a8f"
 					(reference "R_FB3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:WS2812B-2020")
-		(at 67.31 212.09 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3ef5fd54-5d6b-4583-8b73-4030f2ad4e46")
-		(property "Reference" "D62"
-			(at 69.342 205.74 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SK6805-EC20"
-			(at 69.342 208.28 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
-			(at 68.58 219.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
-			(at 69.85 221.615 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
-			(at 67.31 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" ""
-			(at 67.31 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "58c13d64-d4cf-4dfa-b407-f6e3ceb2c34a")
-		)
-		(pin "3"
-			(uuid "bd04722f-348b-485f-9e3f-43bee1ea7b9c")
-		)
-		(pin "2"
-			(uuid "2a56c242-b96c-446e-8f0c-6306dc373a45")
-		)
-		(pin "1"
-			(uuid "d479b288-5c55-40fa-adce-eac86e8f1f86")
-		)
-		(instances
-			(project "mks_mkb1"
-				(path "/a01110a3-a326-4798-a058-407730985a8f"
-					(reference "D62")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:WS2812B-2020")
-		(at 364.49 212.09 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3f742579-c566-4865-be48-384ba2c69d75")
-		(property "Reference" "D75"
-			(at 366.522 205.74 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SK6805-EC20"
-			(at 366.522 208.28 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
-			(at 365.76 219.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
-			(at 367.03 221.615 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
-			(at 364.49 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" ""
-			(at 364.49 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "fcfef5b8-786f-48ef-810e-7400c9a63930")
-		)
-		(pin "3"
-			(uuid "7aa5d8c5-4e3e-4b5d-8b95-3f47bfd5e87d")
-		)
-		(pin "2"
-			(uuid "eb9f5f14-e41a-4067-a864-9b3a98308d06")
-		)
-		(pin "1"
-			(uuid "e758b56d-404e-4cc5-9f32-8dd9c8297854")
-		)
-		(instances
-			(project "mks_mkb1"
-				(path "/a01110a3-a326-4798-a058-407730985a8f"
-					(reference "D75")
 					(unit 1)
 				)
 			)
@@ -20535,104 +19705,6 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:WS2812B-2020")
-		(at 181.61 212.09 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "469fc038-585d-452f-ac95-34521bac633e")
-		(property "Reference" "D67"
-			(at 183.642 205.74 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SK6805-EC20"
-			(at 183.642 208.28 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
-			(at 182.88 219.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
-			(at 184.15 221.615 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
-			(at 181.61 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" ""
-			(at 181.61 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "8549eb73-77ff-4742-9664-2fb2876b4325")
-		)
-		(pin "3"
-			(uuid "17e210e7-4609-4b6d-92ee-e1ebf81774f8")
-		)
-		(pin "2"
-			(uuid "4e7abfff-f354-477b-ae6f-e3245129ff50")
-		)
-		(pin "1"
-			(uuid "4b6bf868-f379-4c87-b08f-f2a8cde9ab14")
-		)
-		(instances
-			(project "mks_mkb1"
-				(path "/a01110a3-a326-4798-a058-407730985a8f"
-					(reference "D67")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 336.55 287.02 180)
 		(unit 1)
@@ -20720,6 +19792,93 @@
 			(project "mks_mkb1"
 				(path "/a01110a3-a326-4798-a058-407730985a8f"
 					(reference "R_PM4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:SK6805")
+		(at 321.31 453.39 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "48684929-7c16-40ba-9467-d719ba5163fc")
+		(property "Reference" "D88"
+			(at 323.088 446.024 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6805-EC20"
+			(at 323.088 448.564 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Mks_Library:SK6805-EC20"
+			(at 322.58 461.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/3484/3484_Datasheet.pdf"
+			(at 323.85 462.915 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 321.31 453.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1627d115-cf05-48a3-834b-169c8d0cce8a")
+		)
+		(pin "2"
+			(uuid "feed9123-4dd4-405e-80e5-0bab10be3370")
+		)
+		(pin "3"
+			(uuid "17f80b2e-c207-4262-938c-76e1942d65d8")
+		)
+		(pin "4"
+			(uuid "65ef3df1-d290-4b3e-b3b7-6bfaa01f6cdc")
+		)
+		(instances
+			(project "mks_mkb1"
+				(path "/a01110a3-a326-4798-a058-407730985a8f"
+					(reference "D88")
 					(unit 1)
 				)
 			)
@@ -21508,104 +20667,6 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:WS2812B-2020")
-		(at 204.47 212.09 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4f2cdc8f-b6bd-4f27-a746-19dedaa70041")
-		(property "Reference" "D68"
-			(at 206.502 205.74 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SK6805-EC20"
-			(at 206.502 208.28 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
-			(at 205.74 219.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
-			(at 207.01 221.615 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
-			(at 204.47 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" ""
-			(at 204.47 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "2886db3c-b971-49ff-8c39-7fe80a56572b")
-		)
-		(pin "3"
-			(uuid "25ebe782-a164-465c-aa3f-13c51e38be7c")
-		)
-		(pin "2"
-			(uuid "3e157d28-84cd-459c-a663-9ba77e910c1b")
-		)
-		(pin "1"
-			(uuid "a9bceeec-1919-4aa7-8543-8a893ced831a")
-		)
-		(instances
-			(project "mks_mkb1"
-				(path "/a01110a3-a326-4798-a058-407730985a8f"
-					(reference "D68")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 125.73 464.82 0)
 		(unit 1)
@@ -22199,104 +21260,6 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:WS2812B-2020")
-		(at 92.71 453.39 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5384f105-6121-40cb-afa4-4395663b1e25")
-		(property "Reference" "D78"
-			(at 94.742 447.04 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SK6805-EC20"
-			(at 94.742 449.58 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
-			(at 93.98 461.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
-			(at 95.25 462.915 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
-			(at 92.71 453.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" ""
-			(at 92.71 453.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "7fe2db37-bfd1-4a98-a2e5-80e469462180")
-		)
-		(pin "3"
-			(uuid "20ba4417-6afe-4ca3-ad66-186dae602bfd")
-		)
-		(pin "2"
-			(uuid "39f1c128-c42b-442c-af8a-43501ce55765")
-		)
-		(pin "1"
-			(uuid "91a4943c-1df6-482e-a25f-a1365bedcf16")
-		)
-		(instances
-			(project "mks_mkb1"
-				(path "/a01110a3-a326-4798-a058-407730985a8f"
-					(reference "D78")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 210.82 288.29 0)
 		(unit 1)
@@ -22384,6 +21347,93 @@
 			(project "mks_mkb1"
 				(path "/a01110a3-a326-4798-a058-407730985a8f"
 					(reference "R_PD2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:SK6805")
+		(at 204.47 212.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5702a845-be3a-4b14-879c-9e233f5aecf4")
+		(property "Reference" "D68"
+			(at 206.248 204.724 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6805-EC20"
+			(at 206.248 207.264 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Mks_Library:SK6805-EC20"
+			(at 205.74 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/3484/3484_Datasheet.pdf"
+			(at 207.01 221.615 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 204.47 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6288811d-f382-4a9b-81a7-20bc590c9f16")
+		)
+		(pin "2"
+			(uuid "6b40401d-9694-4d8b-b9ec-a0f50ca1105a")
+		)
+		(pin "3"
+			(uuid "5709d760-cefa-4ae6-9442-076ba8cd538d")
+		)
+		(pin "4"
+			(uuid "07bd8acc-1715-4b4a-a540-ac4ec2efa63b")
+		)
+		(instances
+			(project "mks_mkb1"
+				(path "/a01110a3-a326-4798-a058-407730985a8f"
+					(reference "D68")
 					(unit 1)
 				)
 			)
@@ -22751,8 +21801,8 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:WS2812B-2020")
-		(at 252.73 453.39 0)
+		(lib_id "LED:SK6805")
+		(at 69.85 453.39 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22760,9 +21810,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "5a60abe9-b5c9-4ae6-8f40-22cb5c3b067b")
-		(property "Reference" "D85"
-			(at 254.762 447.04 0)
+		(uuid "59da9c6c-7070-4aaf-b503-654123d72178")
+		(property "Reference" "D77"
+			(at 71.628 446.024 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22772,7 +21822,7 @@
 			)
 		)
 		(property "Value" "SK6805-EC20"
-			(at 254.762 449.58 0)
+			(at 71.628 448.564 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22781,8 +21831,8 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
-			(at 254 461.01 0)
+		(property "Footprint" "Mks_Library:SK6805-EC20"
+			(at 71.12 461.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22793,8 +21843,8 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
-			(at 255.27 462.915 0)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/3484/3484_Datasheet.pdf"
+			(at 72.39 462.915 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22805,8 +21855,8 @@
 				(justify left top)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
-			(at 252.73 453.39 0)
+		(property "Description" "RGB LED with integrated controller"
+			(at 69.85 453.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22815,34 +21865,23 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "LCSC" ""
-			(at 252.73 453.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "78e0434d-23a0-4f97-a0a1-2d14a3701743")
-		)
-		(pin "3"
-			(uuid "2c9b61ff-46cf-411e-ae0b-d3ec2aa52e0e")
-		)
-		(pin "2"
-			(uuid "214e3511-8cee-4a43-9f58-128ac8865155")
 		)
 		(pin "1"
-			(uuid "0fdb6053-ba70-4afd-9c5c-08acb05b4b99")
+			(uuid "aa7447b1-267f-4328-b776-022814e59988")
+		)
+		(pin "2"
+			(uuid "b3c68282-3025-4407-b488-51850d04a0ed")
+		)
+		(pin "3"
+			(uuid "7622ecc0-6ee1-4047-9049-8968d5bd9ebb")
+		)
+		(pin "4"
+			(uuid "93aebd28-a010-4e07-8309-98f086141c4d")
 		)
 		(instances
 			(project "mks_mkb1"
 				(path "/a01110a3-a326-4798-a058-407730985a8f"
-					(reference "D85")
+					(reference "D77")
 					(unit 1)
 				)
 			)
@@ -23579,6 +22618,93 @@
 			(project "mks_mkb1"
 				(path "/a01110a3-a326-4798-a058-407730985a8f"
 					(reference "SW18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:SK6805")
+		(at 273.05 212.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "654c2325-4dc6-4396-98a0-b29877bcf6e9")
+		(property "Reference" "D71"
+			(at 274.828 204.724 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6805-EC20"
+			(at 274.828 207.264 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Mks_Library:SK6805-EC20"
+			(at 274.32 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/3484/3484_Datasheet.pdf"
+			(at 275.59 221.615 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 273.05 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b09c9b8a-c54d-42f8-9cff-b27c127ad171")
+		)
+		(pin "2"
+			(uuid "6331a7df-8644-4c48-9c48-086546a3d968")
+		)
+		(pin "3"
+			(uuid "97bd2f1a-4c91-4f12-ac56-d6c8a3bb0fec")
+		)
+		(pin "4"
+			(uuid "a4e40fb4-0735-45ef-a863-bb287a0cac47")
+		)
+		(instances
+			(project "mks_mkb1"
+				(path "/a01110a3-a326-4798-a058-407730985a8f"
+					(reference "D71")
 					(unit 1)
 				)
 			)
@@ -24867,6 +23993,93 @@
 		)
 	)
 	(symbol
+		(lib_id "LED:SK6805")
+		(at 227.33 212.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "72be3a1f-c696-41a3-8b6d-cbb8a0067e43")
+		(property "Reference" "D69"
+			(at 229.108 204.724 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6805-EC20"
+			(at 229.108 207.264 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Mks_Library:SK6805-EC20"
+			(at 228.6 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/3484/3484_Datasheet.pdf"
+			(at 229.87 221.615 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 227.33 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e7f3089e-8957-41c7-a0c0-469b2aeb52c1")
+		)
+		(pin "2"
+			(uuid "2982b7c0-3bc8-458e-ad40-fce726e12a46")
+		)
+		(pin "3"
+			(uuid "e27d531d-576b-453c-8ccd-13ff2be26fe1")
+		)
+		(pin "4"
+			(uuid "ef368765-628a-43fb-b55a-c2d711b3e158")
+		)
+		(instances
+			(project "mks_mkb1"
+				(path "/a01110a3-a326-4798-a058-407730985a8f"
+					(reference "D69")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 152.4 124.46 0)
 		(unit 1)
@@ -25043,104 +24256,6 @@
 			(project "mks_mkb1"
 				(path "/a01110a3-a326-4798-a058-407730985a8f"
 					(reference "SW37")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:WS2812B-2020")
-		(at 298.45 453.39 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "75b53afe-203f-42da-a7ff-7539a6c90f58")
-		(property "Reference" "D87"
-			(at 300.482 447.04 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SK6805-EC20"
-			(at 300.482 449.58 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
-			(at 299.72 461.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
-			(at 300.99 462.915 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
-			(at 298.45 453.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" ""
-			(at 298.45 453.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "8819e559-5d14-44bb-8827-90541f4f79b0")
-		)
-		(pin "3"
-			(uuid "1ce1b387-081a-4358-b54f-a8caa6ab59c0")
-		)
-		(pin "2"
-			(uuid "8d3d717f-69b1-4d63-b8b1-2aeb3c8582f0")
-		)
-		(pin "1"
-			(uuid "61d6fd4c-03bd-49d6-87a9-8a2240ca14f3")
-		)
-		(instances
-			(project "mks_mkb1"
-				(path "/a01110a3-a326-4798-a058-407730985a8f"
-					(reference "D87")
 					(unit 1)
 				)
 			)
@@ -27034,6 +26149,93 @@
 		)
 	)
 	(symbol
+		(lib_id "LED:SK6805")
+		(at 115.57 453.39 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "89652dcb-f45f-40c2-8b28-2cef4cf3f838")
+		(property "Reference" "D79"
+			(at 117.348 446.024 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6805-EC20"
+			(at 117.348 448.564 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Mks_Library:SK6805-EC20"
+			(at 116.84 461.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/3484/3484_Datasheet.pdf"
+			(at 118.11 462.915 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 115.57 453.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b0628c89-e720-4f8a-bfbc-d76000f8ffc6")
+		)
+		(pin "2"
+			(uuid "f5cd6006-901c-489e-9e7c-c3100bffbdde")
+		)
+		(pin "3"
+			(uuid "949f7aba-0ee9-464d-b058-a390987cbbbe")
+		)
+		(pin "4"
+			(uuid "5cba5123-d9b0-4e56-81ec-1975825c8efb")
+		)
+		(instances
+			(project "mks_mkb1"
+				(path "/a01110a3-a326-4798-a058-407730985a8f"
+					(reference "D79")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D")
 		(at 172.72 147.32 270)
 		(unit 1)
@@ -27149,8 +26351,8 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:WS2812B-2020")
-		(at 113.03 212.09 0)
+		(lib_id "LED:SK6805")
+		(at 252.73 453.39 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -27158,9 +26360,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "8ce35696-da80-4f32-8175-02c3d65ee29e")
-		(property "Reference" "D64"
-			(at 115.062 205.74 0)
+		(uuid "8c1abd0f-b028-4252-a1da-aa3c435f4d18")
+		(property "Reference" "D85"
+			(at 254.508 446.024 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27170,7 +26372,7 @@
 			)
 		)
 		(property "Value" "SK6805-EC20"
-			(at 115.062 208.28 0)
+			(at 254.508 448.564 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27179,8 +26381,8 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
-			(at 114.3 219.71 0)
+		(property "Footprint" "Mks_Library:SK6805-EC20"
+			(at 254 461.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27191,8 +26393,8 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
-			(at 115.57 221.615 0)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/3484/3484_Datasheet.pdf"
+			(at 255.27 462.915 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27203,8 +26405,8 @@
 				(justify left top)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
-			(at 113.03 212.09 0)
+		(property "Description" "RGB LED with integrated controller"
+			(at 252.73 453.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27213,34 +26415,23 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "LCSC" ""
-			(at 113.03 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "936ec970-62f8-4598-bd2f-cd8bc51c8a60")
-		)
-		(pin "3"
-			(uuid "e0868070-386a-4a2a-8465-3110097b4382")
-		)
-		(pin "2"
-			(uuid "23183c37-aeec-44cf-b3fe-d5ba0f3dbca7")
 		)
 		(pin "1"
-			(uuid "ec87d436-f52c-468d-8710-5e971f150b53")
+			(uuid "47ce93dc-4b28-4b20-a7f3-e2dce192426e")
+		)
+		(pin "2"
+			(uuid "1ff415a8-219e-4fae-ab8c-2f880192994b")
+		)
+		(pin "3"
+			(uuid "e6e2a7bf-fdd6-48dc-9120-edc1e550d8a3")
+		)
+		(pin "4"
+			(uuid "936beafb-7b36-4c76-ab83-3e87eae477e0")
 		)
 		(instances
 			(project "mks_mkb1"
 				(path "/a01110a3-a326-4798-a058-407730985a8f"
-					(reference "D64")
+					(reference "D85")
 					(unit 1)
 				)
 			)
@@ -28708,6 +27899,93 @@
 		)
 	)
 	(symbol
+		(lib_id "LED:SK6805")
+		(at 229.87 453.39 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9edc4ed9-e197-40b8-8895-5dd224f50705")
+		(property "Reference" "D84"
+			(at 231.648 446.024 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6805-EC20"
+			(at 231.648 448.564 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Mks_Library:SK6805-EC20"
+			(at 231.14 461.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/3484/3484_Datasheet.pdf"
+			(at 232.41 462.915 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 229.87 453.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b7fb7b89-f481-4ef1-bfae-3d4ad5bcc1c9")
+		)
+		(pin "2"
+			(uuid "479f4132-5831-49d7-8c60-e673986ed449")
+		)
+		(pin "3"
+			(uuid "2b054dba-6b5d-4fe4-8468-e305ea08aa11")
+		)
+		(pin "4"
+			(uuid "70d3fe7b-117b-4a94-8dc0-0b3eac01f6c0")
+		)
+		(instances
+			(project "mks_mkb1"
+				(path "/a01110a3-a326-4798-a058-407730985a8f"
+					(reference "D84")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Power_Management:TPS2116DRL")
 		(at 350.52 34.29 0)
 		(unit 1)
@@ -28932,8 +28210,8 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:WS2812B-2020")
-		(at 138.43 453.39 0)
+		(lib_id "LED:SK6805")
+		(at 341.63 212.09 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -28941,9 +28219,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "a1727742-5af6-43be-8423-f901520a03af")
-		(property "Reference" "D80"
-			(at 140.462 447.04 0)
+		(uuid "a1c606d2-4b59-48aa-87db-b859aacee164")
+		(property "Reference" "D74"
+			(at 343.408 204.724 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28953,7 +28231,7 @@
 			)
 		)
 		(property "Value" "SK6805-EC20"
-			(at 140.462 449.58 0)
+			(at 343.408 207.264 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28962,8 +28240,8 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
-			(at 139.7 461.01 0)
+		(property "Footprint" "Mks_Library:SK6805-EC20"
+			(at 342.9 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28974,8 +28252,8 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
-			(at 140.97 462.915 0)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/3484/3484_Datasheet.pdf"
+			(at 344.17 221.615 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28986,8 +28264,8 @@
 				(justify left top)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
-			(at 138.43 453.39 0)
+		(property "Description" "RGB LED with integrated controller"
+			(at 341.63 212.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28996,34 +28274,284 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "LCSC" ""
-			(at 138.43 453.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "f88ef779-efa1-4454-b34b-375e0b32de54")
-		)
-		(pin "3"
-			(uuid "6bf5cfda-83a6-4261-9990-cb2934c3d72f")
-		)
-		(pin "2"
-			(uuid "dd20ac5b-8aab-4cb3-af54-1d71d4f07c04")
 		)
 		(pin "1"
-			(uuid "85b7c35c-9820-43e6-a1e2-b0c9d62f381f")
+			(uuid "c5e39196-af36-45a0-a14c-b19907c4eec0")
+		)
+		(pin "2"
+			(uuid "3475dd87-c21d-48f2-b0f5-15a43bc782eb")
+		)
+		(pin "3"
+			(uuid "7adcc2d8-24b3-499c-989f-059de7ad7fa1")
+		)
+		(pin "4"
+			(uuid "7efb1bd4-93e5-4bb6-a30f-d0b13ce4d333")
 		)
 		(instances
 			(project "mks_mkb1"
 				(path "/a01110a3-a326-4798-a058-407730985a8f"
-					(reference "D80")
+					(reference "D74")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:SK6805")
+		(at 90.17 212.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a1f141a8-6ad3-437d-a19c-f76a2c62edff")
+		(property "Reference" "D63"
+			(at 91.948 204.724 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6805-EC20"
+			(at 91.948 207.264 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Mks_Library:SK6805-EC20"
+			(at 91.44 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/3484/3484_Datasheet.pdf"
+			(at 92.71 221.615 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 90.17 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d87cc2c3-d055-403e-930b-72a0f0727531")
+		)
+		(pin "2"
+			(uuid "7df2e54a-654d-43a9-977f-81970d65aee5")
+		)
+		(pin "3"
+			(uuid "99092cf5-b4a2-44bf-8a18-15afad8ac5fb")
+		)
+		(pin "4"
+			(uuid "017eb7cf-aa75-4fa0-9cef-378ef09ad723")
+		)
+		(instances
+			(project "mks_mkb1"
+				(path "/a01110a3-a326-4798-a058-407730985a8f"
+					(reference "D63")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:SK6805")
+		(at 275.59 453.39 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a281e0d3-af0a-475e-a0dd-835e49fc45b6")
+		(property "Reference" "D86"
+			(at 277.368 446.024 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6805-EC20"
+			(at 277.368 448.564 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Mks_Library:SK6805-EC20"
+			(at 276.86 461.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/3484/3484_Datasheet.pdf"
+			(at 278.13 462.915 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 275.59 453.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2ba1eede-76f5-4dd0-816f-4888f9292c88")
+		)
+		(pin "2"
+			(uuid "51aa2b91-d3cd-41d7-8b9c-b2ce5f530505")
+		)
+		(pin "3"
+			(uuid "a11885b5-1d50-4ed5-96bf-43fd43f440ba")
+		)
+		(pin "4"
+			(uuid "743be93c-8739-401e-a8e2-0b04538cc121")
+		)
+		(instances
+			(project "mks_mkb1"
+				(path "/a01110a3-a326-4798-a058-407730985a8f"
+					(reference "D86")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:SK6805")
+		(at 67.31 212.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a2cf60a9-d9ba-4c13-9c09-d0ef1fbeec97")
+		(property "Reference" "D62"
+			(at 69.088 204.724 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6805-EC20"
+			(at 69.088 207.264 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Mks_Library:SK6805-EC20"
+			(at 68.58 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/3484/3484_Datasheet.pdf"
+			(at 69.85 221.615 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 67.31 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "aafd563c-fff8-411b-b60d-e9361efee00b")
+		)
+		(pin "2"
+			(uuid "7658939f-978e-4edd-b9e3-87b5c0042ef8")
+		)
+		(pin "3"
+			(uuid "5be5e53f-53ea-483e-89e8-6d489259e76c")
+		)
+		(pin "4"
+			(uuid "34d31226-2e3c-42a1-8341-067fcc2dc0dc")
+		)
+		(instances
+			(project "mks_mkb1"
+				(path "/a01110a3-a326-4798-a058-407730985a8f"
+					(reference "D62")
 					(unit 1)
 				)
 			)
@@ -29330,104 +28858,6 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:WS2812B-2020")
-		(at 207.01 453.39 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a579b721-2eda-495b-9184-da9e65a7a741")
-		(property "Reference" "D83"
-			(at 209.042 447.04 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SK6805-EC20"
-			(at 209.042 449.58 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
-			(at 208.28 461.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
-			(at 209.55 462.915 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
-			(at 207.01 453.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" ""
-			(at 207.01 453.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "62dc4e55-04cc-452f-80fd-2d2c3b03cfb5")
-		)
-		(pin "3"
-			(uuid "15ea223f-1b96-4163-b138-bf94d92ca175")
-		)
-		(pin "2"
-			(uuid "b7dde937-15f1-460d-aa09-096228749107")
-		)
-		(pin "1"
-			(uuid "0d8e5256-e2cc-4219-97a9-31010fd159b2")
-		)
-		(instances
-			(project "mks_mkb1"
-				(path "/a01110a3-a326-4798-a058-407730985a8f"
-					(reference "D83")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D")
 		(at 186.69 349.25 270)
 		(unit 1)
@@ -29537,6 +28967,93 @@
 			(project "mks_mkb1"
 				(path "/a01110a3-a326-4798-a058-407730985a8f"
 					(reference "D41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:SK6805")
+		(at 158.75 212.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a62b6ab1-2b38-46c5-9d61-eaca778862df")
+		(property "Reference" "D66"
+			(at 160.528 204.724 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6805-EC20"
+			(at 160.528 207.264 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Mks_Library:SK6805-EC20"
+			(at 160.02 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/3484/3484_Datasheet.pdf"
+			(at 161.29 221.615 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 158.75 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "369c9f43-24a8-4536-9e27-f79d2dbced17")
+		)
+		(pin "2"
+			(uuid "b24c2f3a-4cc5-4041-b994-6dd09868bdd6")
+		)
+		(pin "3"
+			(uuid "14ff31d8-78cb-4f0c-a1eb-c1e63906932f")
+		)
+		(pin "4"
+			(uuid "7c561e21-42c9-4f60-9695-1b349667e171")
+		)
+		(instances
+			(project "mks_mkb1"
+				(path "/a01110a3-a326-4798-a058-407730985a8f"
+					(reference "D66")
 					(unit 1)
 				)
 			)
@@ -30163,104 +29680,6 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:WS2812B-2020")
-		(at 273.05 212.09 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "accfd948-689e-46a6-ad11-c7e88a3f42f7")
-		(property "Reference" "D71"
-			(at 275.082 205.74 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SK6805-EC20"
-			(at 275.082 208.28 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
-			(at 274.32 219.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
-			(at 275.59 221.615 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
-			(at 273.05 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" ""
-			(at 273.05 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "c781af23-77dc-465c-9bae-7541e9a36f84")
-		)
-		(pin "3"
-			(uuid "5c9c482d-b72b-48c5-a8af-edfcb5f9e5d8")
-		)
-		(pin "2"
-			(uuid "fb0230e0-53e3-43fd-96c6-6e8842ca3280")
-		)
-		(pin "1"
-			(uuid "54a5fd58-4a42-4c9c-b088-601c64ce65ad")
-		)
-		(instances
-			(project "mks_mkb1"
-				(path "/a01110a3-a326-4798-a058-407730985a8f"
-					(reference "D71")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D")
 		(at 265.43 147.32 90)
 		(mirror x)
@@ -30840,6 +30259,93 @@
 		)
 	)
 	(symbol
+		(lib_id "LED:SK6805")
+		(at 161.29 453.39 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b115137e-2f0f-47b0-854e-c98faf2b6244")
+		(property "Reference" "D81"
+			(at 163.068 446.024 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6805-EC20"
+			(at 163.068 448.564 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Mks_Library:SK6805-EC20"
+			(at 162.56 461.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/3484/3484_Datasheet.pdf"
+			(at 163.83 462.915 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 161.29 453.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "56a914b8-3ffe-4d39-b645-e243f64674f0")
+		)
+		(pin "2"
+			(uuid "ab005b05-2273-4a44-a7fd-7071fdb64239")
+		)
+		(pin "3"
+			(uuid "180b506b-841c-43f5-a69d-d4daad126cf2")
+		)
+		(pin "4"
+			(uuid "9c2c2323-2ce0-416a-87e1-847e6a97f9e5")
+		)
+		(instances
+			(project "mks_mkb1"
+				(path "/a01110a3-a326-4798-a058-407730985a8f"
+					(reference "D81")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 203.2 33.02 0)
 		(unit 1)
@@ -31018,104 +30524,6 @@
 			(project "mks_mkb1"
 				(path "/a01110a3-a326-4798-a058-407730985a8f"
 					(reference "SW49")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:WS2812B-2020")
-		(at 275.59 453.39 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b43b4684-1dea-4561-8e1f-9ab731bc6f0f")
-		(property "Reference" "D86"
-			(at 277.622 447.04 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SK6805-EC20"
-			(at 277.622 449.58 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
-			(at 276.86 461.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
-			(at 278.13 462.915 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
-			(at 275.59 453.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" ""
-			(at 275.59 453.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "660dfd47-f1e2-4c81-897b-916e24b61016")
-		)
-		(pin "3"
-			(uuid "5f8cb2b6-473b-453e-a2a6-e665638e5110")
-		)
-		(pin "2"
-			(uuid "30127ac1-661f-4db9-8e2d-f91a25c19aca")
-		)
-		(pin "1"
-			(uuid "05a080fa-1655-42e7-acb7-64dff96d40a9")
-		)
-		(instances
-			(project "mks_mkb1"
-				(path "/a01110a3-a326-4798-a058-407730985a8f"
-					(reference "D86")
 					(unit 1)
 				)
 			)
@@ -31461,8 +30869,8 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:WS2812B-2020")
-		(at 318.77 212.09 0)
+		(lib_id "LED:SK6805")
+		(at 295.91 212.09 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -31470,9 +30878,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "b822481e-4f8c-4ee0-a036-bd0f01f34b59")
-		(property "Reference" "D73"
-			(at 320.802 205.74 0)
+		(uuid "b739ea10-f6c0-4a9e-8724-4536dfc55aac")
+		(property "Reference" "D72"
+			(at 297.688 204.724 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31482,7 +30890,7 @@
 			)
 		)
 		(property "Value" "SK6805-EC20"
-			(at 320.802 208.28 0)
+			(at 297.688 207.264 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31491,8 +30899,8 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
-			(at 320.04 219.71 0)
+		(property "Footprint" "Mks_Library:SK6805-EC20"
+			(at 297.18 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31503,8 +30911,8 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
-			(at 321.31 221.615 0)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/3484/3484_Datasheet.pdf"
+			(at 298.45 221.615 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31515,8 +30923,8 @@
 				(justify left top)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
-			(at 318.77 212.09 0)
+		(property "Description" "RGB LED with integrated controller"
+			(at 295.91 212.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31525,34 +30933,110 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "LCSC" ""
-			(at 318.77 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "6f0ed0e4-7027-4ac1-a8e5-3fd7ea24b6ba")
-		)
-		(pin "3"
-			(uuid "1000a756-e412-4ce3-ba9e-fdc549e234ae")
-		)
-		(pin "2"
-			(uuid "d5dccfe6-c60f-4eb7-8bfc-98cc94f214a3")
 		)
 		(pin "1"
-			(uuid "046022ca-ae23-45e9-bb6b-be5adaa0bfc7")
+			(uuid "cdedcf6c-5d17-49a3-a631-7eda488f7081")
+		)
+		(pin "2"
+			(uuid "34b41255-aca0-44be-b7ef-61719b6217a0")
+		)
+		(pin "3"
+			(uuid "c81b1a6c-4083-47b3-830e-ede549c3f509")
+		)
+		(pin "4"
+			(uuid "644cfad1-8f99-4391-9b80-ff9d06641eb6")
 		)
 		(instances
 			(project "mks_mkb1"
 				(path "/a01110a3-a326-4798-a058-407730985a8f"
-					(reference "D73")
+					(reference "D72")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:SK6805")
+		(at 184.15 453.39 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b80c8b16-aa2f-4d4f-94de-0343ebef8bc7")
+		(property "Reference" "D82"
+			(at 185.928 446.024 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6805-EC20"
+			(at 185.928 448.564 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Mks_Library:SK6805-EC20"
+			(at 185.42 461.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/3484/3484_Datasheet.pdf"
+			(at 186.69 462.915 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 184.15 453.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7b5d7147-123a-4bad-bdf8-9a640fe78973")
+		)
+		(pin "2"
+			(uuid "961fb60b-8291-4001-a9a1-f9361bbd7197")
+		)
+		(pin "3"
+			(uuid "9fddb1ab-42de-47aa-be01-de5767378a01")
+		)
+		(pin "4"
+			(uuid "66cf84ab-c4f8-4279-a5f1-49c46601d4d8")
+		)
+		(instances
+			(project "mks_mkb1"
+				(path "/a01110a3-a326-4798-a058-407730985a8f"
+					(reference "D82")
 					(unit 1)
 				)
 			)
@@ -31669,104 +31153,6 @@
 			(project "mks_mkb1"
 				(path "/a01110a3-a326-4798-a058-407730985a8f"
 					(reference "D19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:WS2812B-2020")
-		(at 46.99 453.39 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "bbeb3297-fb84-4b39-84bb-a6195f3ccc96")
-		(property "Reference" "D76"
-			(at 49.022 447.04 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SK6805-EC20"
-			(at 49.022 449.58 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
-			(at 48.26 461.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
-			(at 49.53 462.915 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
-			(at 46.99 453.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" ""
-			(at 46.99 453.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "10d1bbcd-cf0f-4832-89fe-f152e2f935c1")
-		)
-		(pin "3"
-			(uuid "499b3db9-b123-426d-ba24-727736e7c5da")
-		)
-		(pin "2"
-			(uuid "a689abe5-4356-4432-b0f6-a76f004c9865")
-		)
-		(pin "1"
-			(uuid "6457f0fd-371f-49ba-b1fd-f0463ed46e11")
-		)
-		(instances
-			(project "mks_mkb1"
-				(path "/a01110a3-a326-4798-a058-407730985a8f"
-					(reference "D76")
 					(unit 1)
 				)
 			)
@@ -33085,8 +32471,8 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:WS2812B-2020")
-		(at 90.17 212.09 0)
+		(lib_id "LED:SK6805")
+		(at 135.89 212.09 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -33094,9 +32480,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "c69d608a-eb27-4b51-87ef-ae51f332909e")
-		(property "Reference" "D63"
-			(at 92.202 205.74 0)
+		(uuid "c67d4aab-b996-448e-a7d5-176af9a0d69c")
+		(property "Reference" "D65"
+			(at 137.668 204.724 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33106,7 +32492,7 @@
 			)
 		)
 		(property "Value" "SK6805-EC20"
-			(at 92.202 208.28 0)
+			(at 137.668 207.264 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33115,8 +32501,8 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
-			(at 91.44 219.71 0)
+		(property "Footprint" "Mks_Library:SK6805-EC20"
+			(at 137.16 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33127,8 +32513,8 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
-			(at 92.71 221.615 0)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/3484/3484_Datasheet.pdf"
+			(at 138.43 221.615 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33139,8 +32525,8 @@
 				(justify left top)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
-			(at 90.17 212.09 0)
+		(property "Description" "RGB LED with integrated controller"
+			(at 135.89 212.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33149,34 +32535,23 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "LCSC" ""
-			(at 90.17 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "fbd7608c-56b2-45e1-98c1-efd08329741d")
-		)
-		(pin "3"
-			(uuid "9b480241-d79d-49fc-baa7-6988d7a5490b")
-		)
-		(pin "2"
-			(uuid "02924316-4e75-4e13-b0e1-ea73be23eb1e")
 		)
 		(pin "1"
-			(uuid "70e529da-d00e-4e7f-b36c-02f81a64c25b")
+			(uuid "3d226908-167c-4ea0-b5c6-6777f5ef63b9")
+		)
+		(pin "2"
+			(uuid "6bdabbae-c3a7-4ad6-8add-0d3cb871bdf8")
+		)
+		(pin "3"
+			(uuid "23bb10b7-b20b-4d1d-80a9-406cc6951e3e")
+		)
+		(pin "4"
+			(uuid "5ba18033-e858-4f5c-9cca-f326d3d8f9e4")
 		)
 		(instances
 			(project "mks_mkb1"
 				(path "/a01110a3-a326-4798-a058-407730985a8f"
-					(reference "D63")
+					(reference "D65")
 					(unit 1)
 				)
 			)
@@ -33386,6 +32761,180 @@
 			(project "mks_mkb1"
 				(path "/a01110a3-a326-4798-a058-407730985a8f"
 					(reference "D37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:SK6805")
+		(at 181.61 212.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ca09a63d-3741-4a6b-bb35-f6c0f4bd985a")
+		(property "Reference" "D67"
+			(at 183.388 204.724 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6805-EC20"
+			(at 183.388 207.264 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Mks_Library:SK6805-EC20"
+			(at 182.88 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/3484/3484_Datasheet.pdf"
+			(at 184.15 221.615 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 181.61 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e0b99622-8f48-44d8-a926-ecb6894aaea8")
+		)
+		(pin "2"
+			(uuid "75bd1dc2-348f-4808-a4bf-b62ee9335729")
+		)
+		(pin "3"
+			(uuid "41c00f86-5acf-4d8a-8344-71f9a1aecf60")
+		)
+		(pin "4"
+			(uuid "0d984b15-66ec-4c59-87e8-e3a73a34349a")
+		)
+		(instances
+			(project "mks_mkb1"
+				(path "/a01110a3-a326-4798-a058-407730985a8f"
+					(reference "D67")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:SK6805")
+		(at 92.71 453.39 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ca1bd0d3-9e5a-4c1d-86e4-1de0b67d5ff3")
+		(property "Reference" "D78"
+			(at 94.488 446.024 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6805-EC20"
+			(at 94.488 448.564 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Mks_Library:SK6805-EC20"
+			(at 93.98 461.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/3484/3484_Datasheet.pdf"
+			(at 95.25 462.915 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 92.71 453.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8c6b1377-1f09-4656-8dfb-d5b6ce06221c")
+		)
+		(pin "2"
+			(uuid "b87c7523-5367-4f74-838b-a1f647da64c0")
+		)
+		(pin "3"
+			(uuid "4af89994-fd4c-4526-aeeb-ac294879091e")
+		)
+		(pin "4"
+			(uuid "ceeaf62a-44a2-4f51-a18b-2f2c27b9bc0c")
+		)
+		(instances
+			(project "mks_mkb1"
+				(path "/a01110a3-a326-4798-a058-407730985a8f"
+					(reference "D78")
 					(unit 1)
 				)
 			)
@@ -34473,104 +34022,6 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:WS2812B-2020")
-		(at 321.31 453.39 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d6c4d0c4-ea38-4bb7-ad00-85c2127605a8")
-		(property "Reference" "D88"
-			(at 323.342 447.04 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SK6805-EC20"
-			(at 323.342 449.58 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
-			(at 322.58 461.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
-			(at 323.85 462.915 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
-			(at 321.31 453.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" ""
-			(at 321.31 453.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "89db71dd-852e-4510-b668-723b6c2f868e")
-		)
-		(pin "3"
-			(uuid "cf9f0ecc-75e8-411b-99ec-385da2e39116")
-		)
-		(pin "2"
-			(uuid "2bdac61a-25ba-4e9a-8be7-3c48cb9fe525")
-		)
-		(pin "1"
-			(uuid "0f162b3c-425d-4734-86fb-7390e3fb3704")
-		)
-		(instances
-			(project "mks_mkb1"
-				(path "/a01110a3-a326-4798-a058-407730985a8f"
-					(reference "D88")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 213.36 143.51 0)
 		(unit 1)
@@ -35144,6 +34595,93 @@
 		)
 	)
 	(symbol
+		(lib_id "LED:SK6805")
+		(at 250.19 212.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dbf8704a-5c98-4529-be83-04aa933d71e5")
+		(property "Reference" "D70"
+			(at 251.968 204.724 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6805-EC20"
+			(at 251.968 207.264 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Mks_Library:SK6805-EC20"
+			(at 251.46 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/3484/3484_Datasheet.pdf"
+			(at 252.73 221.615 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 250.19 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "31613946-366f-4212-80d8-ea597ae7ca1b")
+		)
+		(pin "2"
+			(uuid "ffe82bdf-8150-4d25-a145-f72f71d88b2c")
+		)
+		(pin "3"
+			(uuid "891548d4-110e-4289-8fbb-d094bb42d7e6")
+		)
+		(pin "4"
+			(uuid "3a97f26a-51bc-42db-b33c-bf318f761f3d")
+		)
+		(instances
+			(project "mks_mkb1"
+				(path "/a01110a3-a326-4798-a058-407730985a8f"
+					(reference "D70")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D")
 		(at 186.69 368.3 270)
 		(mirror x)
@@ -35369,104 +34907,6 @@
 			(project "mks_mkb1"
 				(path "/a01110a3-a326-4798-a058-407730985a8f"
 					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:WS2812B-2020")
-		(at 295.91 212.09 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e1fbd724-5c1b-4a31-9ab3-6c1e4cdb89a3")
-		(property "Reference" "D72"
-			(at 297.942 205.74 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SK6805-EC20"
-			(at 297.942 208.28 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
-			(at 297.18 219.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
-			(at 298.45 221.615 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
-			(at 295.91 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" ""
-			(at 295.91 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "80ca8d27-2097-4c52-a0cb-34bf1cb4ff5f")
-		)
-		(pin "3"
-			(uuid "fb7b6b29-d59e-4178-afff-1bd11170fbe0")
-		)
-		(pin "2"
-			(uuid "68a09e75-5a6c-411e-b47c-00adae6db138")
-		)
-		(pin "1"
-			(uuid "9d14a16d-f1df-417e-ab45-43b89c6c0ced")
-		)
-		(instances
-			(project "mks_mkb1"
-				(path "/a01110a3-a326-4798-a058-407730985a8f"
-					(reference "D72")
 					(unit 1)
 				)
 			)
@@ -36413,104 +35853,6 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:WS2812B-2020")
-		(at 229.87 453.39 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ea4d7235-f423-41a2-a0c5-51e87562dcf0")
-		(property "Reference" "D84"
-			(at 231.902 447.04 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SK6805-EC20"
-			(at 231.902 449.58 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
-			(at 231.14 461.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
-			(at 232.41 462.915 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
-			(at 229.87 453.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" ""
-			(at 229.87 453.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "d223b618-9c19-47c1-88f1-9fdd429eb810")
-		)
-		(pin "3"
-			(uuid "a7086561-514f-4aeb-b742-88feadef2fac")
-		)
-		(pin "2"
-			(uuid "493e1cc5-56f6-43ea-91cf-d4e4b0ef76c8")
-		)
-		(pin "1"
-			(uuid "0e3628c2-0be5-437a-a2df-bb7de532c95b")
-		)
-		(instances
-			(project "mks_mkb1"
-				(path "/a01110a3-a326-4798-a058-407730985a8f"
-					(reference "D84")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D")
 		(at 156.21 349.25 270)
 		(unit 1)
@@ -36626,6 +35968,180 @@
 		)
 	)
 	(symbol
+		(lib_id "LED:SK6805")
+		(at 46.99 453.39 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ec0fa1a0-cc5a-4b4f-acca-d05a7631299a")
+		(property "Reference" "D76"
+			(at 48.768 446.024 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6805-EC20"
+			(at 48.768 448.564 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Mks_Library:SK6805-EC20"
+			(at 48.26 461.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/3484/3484_Datasheet.pdf"
+			(at 49.53 462.915 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 46.99 453.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fbbee236-24cf-4bf4-bfe9-6167205f7a64")
+		)
+		(pin "2"
+			(uuid "85d156e7-ce2f-4597-b62a-0e2770282467")
+		)
+		(pin "3"
+			(uuid "6284c94b-a1db-4e93-bab7-53de99961eee")
+		)
+		(pin "4"
+			(uuid "4174fcfa-4a4c-40b8-9862-b9be553662cf")
+		)
+		(instances
+			(project "mks_mkb1"
+				(path "/a01110a3-a326-4798-a058-407730985a8f"
+					(reference "D76")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:SK6805")
+		(at 364.49 212.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ed3b2b82-5d72-41ca-9104-310eb616a251")
+		(property "Reference" "D75"
+			(at 366.268 204.724 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6805-EC20"
+			(at 366.268 207.264 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Mks_Library:SK6805-EC20"
+			(at 365.76 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/3484/3484_Datasheet.pdf"
+			(at 367.03 221.615 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 364.49 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7bac6adc-dcf0-4a31-a82e-085c3fb09e03")
+		)
+		(pin "2"
+			(uuid "2a539456-6bec-4764-9358-a02c0de7425e")
+		)
+		(pin "3"
+			(uuid "53b52e42-df54-4442-80e5-7d26cd2ee753")
+		)
+		(pin "4"
+			(uuid "507b805e-8de3-401f-bb6d-d9baa2f0ad24")
+		)
+		(instances
+			(project "mks_mkb1"
+				(path "/a01110a3-a326-4798-a058-407730985a8f"
+					(reference "D75")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 259.08 345.44 0)
 		(unit 1)
@@ -36711,6 +36227,180 @@
 			(project "mks_mkb1"
 				(path "/a01110a3-a326-4798-a058-407730985a8f"
 					(reference "SW55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:SK6805")
+		(at 113.03 212.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "edb73ac7-dcae-4381-83dd-7504a60fa9d2")
+		(property "Reference" "D64"
+			(at 114.808 204.724 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6805-EC20"
+			(at 114.808 207.264 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Mks_Library:SK6805-EC20"
+			(at 114.3 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/3484/3484_Datasheet.pdf"
+			(at 115.57 221.615 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 113.03 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c2ab6dd2-aaf8-449d-bb32-17bb813e3641")
+		)
+		(pin "2"
+			(uuid "afbe41cb-ab2e-4309-86dd-475c76a7f035")
+		)
+		(pin "3"
+			(uuid "76ae5228-0fc0-47d2-8c30-0201b9cc1cb1")
+		)
+		(pin "4"
+			(uuid "5502b792-30e5-48d3-ab64-b94c87f350f2")
+		)
+		(instances
+			(project "mks_mkb1"
+				(path "/a01110a3-a326-4798-a058-407730985a8f"
+					(reference "D64")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:SK6805")
+		(at 367.03 453.39 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "edc3f2fc-eb5c-40ea-94f5-b5f0b5fccbdf")
+		(property "Reference" "D90"
+			(at 368.808 446.024 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6805-EC20"
+			(at 368.808 448.564 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Mks_Library:SK6805-EC20"
+			(at 368.3 461.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/3484/3484_Datasheet.pdf"
+			(at 369.57 462.915 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 367.03 453.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e55b01b0-f3f6-4f11-b966-2fabda5cdb88")
+		)
+		(pin "2"
+			(uuid "563ed9b6-bbd6-4471-ad55-3d6e022e2234")
+		)
+		(pin "3"
+			(uuid "59016c7f-1b05-4878-afd0-29d4a1a5e50b")
+		)
+		(pin "4"
+			(uuid "22fb0b1a-5f6a-4444-83d4-ae7fa8f4724d")
+		)
+		(instances
+			(project "mks_mkb1"
+				(path "/a01110a3-a326-4798-a058-407730985a8f"
+					(reference "D90")
 					(unit 1)
 				)
 			)
@@ -37278,8 +36968,8 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:WS2812B-2020")
-		(at 227.33 212.09 0)
+		(lib_id "LED:SK6805")
+		(at 207.01 453.39 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -37287,9 +36977,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "f5bc9541-861f-4148-9e0d-8080a0e65e13")
-		(property "Reference" "D69"
-			(at 229.362 205.74 0)
+		(uuid "f5fed967-d01d-4d4e-8f42-fc7dcc75acd9")
+		(property "Reference" "D83"
+			(at 208.788 446.024 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -37299,7 +36989,7 @@
 			)
 		)
 		(property "Value" "SK6805-EC20"
-			(at 229.362 208.28 0)
+			(at 208.788 448.564 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -37308,8 +36998,8 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
-			(at 228.6 219.71 0)
+		(property "Footprint" "Mks_Library:SK6805-EC20"
+			(at 208.28 461.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37320,8 +37010,8 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
-			(at 229.87 221.615 0)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/3484/3484_Datasheet.pdf"
+			(at 209.55 462.915 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37332,8 +37022,8 @@
 				(justify left top)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
-			(at 227.33 212.09 0)
+		(property "Description" "RGB LED with integrated controller"
+			(at 207.01 453.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37342,34 +37032,23 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "LCSC" ""
-			(at 227.33 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "b6e03db0-1a6a-49ea-84fe-d84469ca598e")
-		)
-		(pin "3"
-			(uuid "c3da9b39-a74c-4c8a-9b06-3044e88e7be4")
-		)
-		(pin "2"
-			(uuid "ef316af1-f715-4d3a-ac7a-341487bd10c0")
 		)
 		(pin "1"
-			(uuid "4cc1031b-2e7c-425f-8502-4901674a8122")
+			(uuid "2f40e6a4-4bc5-4bce-aad5-76dc2b217e81")
+		)
+		(pin "2"
+			(uuid "0651e351-292b-4066-8f19-d92098155a2e")
+		)
+		(pin "3"
+			(uuid "d0b37964-9080-4296-bfdd-55ff5eb54d9b")
+		)
+		(pin "4"
+			(uuid "12700b98-3f73-4ab6-8555-b21f3590c22a")
 		)
 		(instances
 			(project "mks_mkb1"
 				(path "/a01110a3-a326-4798-a058-407730985a8f"
-					(reference "D69")
+					(reference "D83")
 					(unit 1)
 				)
 			)
@@ -37461,104 +37140,6 @@
 			(project "mks_mkb1"
 				(path "/a01110a3-a326-4798-a058-407730985a8f"
 					(reference "SW25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:WS2812B-2020")
-		(at 344.17 453.39 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f6982401-6a39-41d4-8967-249688ec301c")
-		(property "Reference" "D89"
-			(at 346.202 447.04 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SK6805-EC20"
-			(at 346.202 449.58 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
-			(at 345.44 461.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
-			(at 346.71 462.915 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
-			(at 344.17 453.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" ""
-			(at 344.17 453.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "a2b98622-04e4-457c-8513-d3cf5f85261f")
-		)
-		(pin "3"
-			(uuid "6caf9eff-6de5-40e2-bbb5-8f0e5b6ef504")
-		)
-		(pin "2"
-			(uuid "416342fc-e356-4f1b-a3a3-029451de03ab")
-		)
-		(pin "1"
-			(uuid "fe582b44-1d36-441f-8305-0334a4f4f56a")
-		)
-		(instances
-			(project "mks_mkb1"
-				(path "/a01110a3-a326-4798-a058-407730985a8f"
-					(reference "D89")
 					(unit 1)
 				)
 			)
@@ -37741,6 +37322,93 @@
 			(project "mks_mkb1"
 				(path "/a01110a3-a326-4798-a058-407730985a8f"
 					(reference "SW10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:SK6805")
+		(at 318.77 212.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f8744245-974d-4a30-a941-988ef0fba46b")
+		(property "Reference" "D73"
+			(at 320.548 204.724 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6805-EC20"
+			(at 320.548 207.264 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Mks_Library:SK6805-EC20"
+			(at 320.04 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/3484/3484_Datasheet.pdf"
+			(at 321.31 221.615 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 318.77 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d06d84f2-194f-4e95-952e-aa9c7e291e50")
+		)
+		(pin "2"
+			(uuid "df51723f-7512-4d33-855f-dbb7c8805099")
+		)
+		(pin "3"
+			(uuid "eda411da-594a-44a5-b90b-dcc0504b8695")
+		)
+		(pin "4"
+			(uuid "23223074-4492-463a-8ea0-affc7ed1b79b")
+		)
+		(instances
+			(project "mks_mkb1"
+				(path "/a01110a3-a326-4798-a058-407730985a8f"
+					(reference "D73")
 					(unit 1)
 				)
 			)

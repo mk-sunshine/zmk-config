@@ -1,0 +1,5 @@
+config SHIELD_MKS_MKB1_LEFT
+    def_bool $(shields_list_contains,mks_mkb1_left)
+
+config SHIELD_MKS_MKB1_RIGHT
+    def_bool $(shields_list_contains,mks_mkb1_right)

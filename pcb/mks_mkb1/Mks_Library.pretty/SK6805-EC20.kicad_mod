@@ -1,0 +1,106 @@
+(footprint "SK6805-EC20"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -1.66256 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "536be752-0c71-414c-aff8-3cb8901d10f4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "SK6805-EC20"
+		(at 0 1.751436 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f31bafe1-6969-435a-9834-43b3da80a2a5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "007cb0c2-2c0c-46f6-be03-0c4ca196e080")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1cdf79fb-9ad7-49e1-975f-5fab37256959")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -1 -1)
+		(end 1 1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "29d06e30-7509-4a3b-aec8-9bcf75a4d033")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "06da0982-e65c-407a-bf2d-07fc25a760e3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.65 -0.65)
+		(size 0.65 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8aae1b45-e7d3-446a-913f-eb5929f812f6")
+	)
+	(pad "2" smd rect
+		(at -0.65 0.65)
+		(size 0.65 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "61d91942-db9f-48ac-8c1c-1a702531df44")
+	)
+	(pad "3" smd rect
+		(at 0.65 0.65)
+		(size 0.65 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c2df3ec2-172a-4fe5-ac02-b185a4c0a56f")
+	)
+	(pad "4" smd rect
+		(at 0.65 -0.65)
+		(size 0.65 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "9a0d36f2-f4e3-4e83-bff7-31ceee7ac9cf")
+	)
+	(embedded_fonts no)
+)

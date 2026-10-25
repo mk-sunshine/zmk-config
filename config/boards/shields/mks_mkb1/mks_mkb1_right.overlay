@@ -1,0 +1,27 @@
+#include "mks_mkb1.dtsi"
+
+/ {
+    chosen {
+        zmk,kscan = &kscan0;
+    };
+};
+
+/* 右手側にも独立した74HC595が存在するため、同様にSPI0を定義 */
+&spi0 {
+    compatible = "nordic,nrf-spim";
+    status = "okay";
+    
+    sck-pin = <0>;  // D0ピン：SRCLK
+    mosi-pin = <2>; // D2ピン：SER
+    cs-gpios = <&xiaoble_d 1 GPIO_ACTIVE_LOW>; // D1ピン：RCLK
+
+    shift_reg: 74hc595@0 {
+        compatible = "st,74hc595";
+        reg = <0>;
+        label = "SHIFT_REG";
+        gpio-controller;
+        #gpio-cells = <2>;
+        ngpios = <8>;
+        spi-max-frequency = <1000000>;
+    };
+};
