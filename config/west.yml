@@ -3,7 +3,7 @@ manifest:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
     - name: sekigon-gonnoc
-      url-base: https://github.com
+      url-base: https://github.com/sekigon-gonnoc
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -11,6 +11,5 @@ manifest:
       import: app/west.yml
     - name: zmk-driver-iqs7211e
       remote: sekigon-gonnoc
-      revision: master
   self:
     path: config
