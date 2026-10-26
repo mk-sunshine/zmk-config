@@ -13,3 +13,17 @@ outputs:
   - ble
 boards:
   - seeeduino_xiao_ble
+
+manifest:
+  remotes:
+    - name: zmkfirmware
+      url-base: https://github.com/zmkfirmware
+    - name: sekigon-gonnoc
+      url-base: https://github.com/sekigon-gonnoc
+  projects:
+    - name: zmk
+      remote: zmkfirmware
+      revision: main
+      import: app/west.yml
+    - name: zmk-driver-iqs7211e
+      remote: sekigon-gonnoc
