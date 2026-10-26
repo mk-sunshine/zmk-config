@@ -9,4 +9,40 @@ on:
 
 jobs:
   build:
-    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Cache west modules
+        uses: actions/cache@v3
+        env:
+          cache-name: cache-zephyr-modules
+        with:
+          path: |
+            modules/
+            tools/
+            zephyr/
+            bootloader/
+          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('config/west.yml') }}
+
+      - name: Build Left Side
+        uses: zmkfirmware/zmk-actions-toolkit/build@main
+        with:
+          shield: mks_mkb1_left
+          board: seeeduino_xiao_ble
+          config_path: config
+
+      - name: Build Right Side
+        uses: zmkfirmware/zmk-actions-toolkit/build@main
+        with:
+          shield: mks_mkb1_right
+          board: seeeduino_xiao_ble
+          config_path: config
+
+      - name: Archive artifacts
+        uses: actions/upload-artifact@v3
+        with:
+          name: mks_mkb1_firmware
+          path: |
+            build/zephyr/zmk.uf2
