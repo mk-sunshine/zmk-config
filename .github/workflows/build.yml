@@ -1,6 +1,12 @@
-name: Build ZMK firmware
-on: [push, pull_request, workflow_dispatch]
+name: Build MKS_MKB1 Firmware
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+  workflow_dispatch: # GitHubの画面から手動でビルドを実行できるようにするボタン
 
 jobs:
   build:
-    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@v0.3
+    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
