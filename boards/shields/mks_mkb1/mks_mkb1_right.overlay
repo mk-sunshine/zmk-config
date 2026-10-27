@@ -1,4 +1,22 @@
+#include <dt-bindings/pinctrl/nrf-pinctrl.h>
 #include "mks_mkb1.dtsi"
+
+&pinctrl {
+    spi0_default: spi0_default {
+        group1 {
+            psels = <NRF_PSEL(SPIM_SCK, 0, 2)>,
+                    <NRF_PSEL(SPIM_MOSI, 0, 28)>;
+        };
+    };
+
+    spi0_sleep: spi0_sleep {
+        group1 {
+            psels = <NRF_PSEL(SPIM_SCK, 0, 2)>,
+                    <NRF_PSEL(SPIM_MOSI, 0, 28)>;
+            low-power-enable;
+        };
+    };
+};
 
 / {
     chosen {
@@ -6,14 +24,12 @@
     };
 };
 
-/* 右手側にも独立した74HC595が存在するため、同様にSPI0を定義 */
 &spi0 {
-    compatible = "nordic,nrf-spim";
     status = "okay";
-    
-    sck-pin = <0>;  // D0ピン：SRCLK
-    mosi-pin = <2>; // D2ピン：SER
-    cs-gpios = <&xiao_d 1 GPIO_ACTIVE_LOW>; // D1ピン：RCLK
+    pinctrl-0 = <&spi0_default>;
+    pinctrl-1 = <&spi0_sleep>;
+    pinctrl-names = "default", "sleep";
+    cs-gpios = <&xiao_d 1 GPIO_ACTIVE_LOW>;
 
     shift_reg: 595@0 {
         compatible = "zmk,gpio-595";
