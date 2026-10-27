@@ -6,11 +6,6 @@
         zmk,matrix-transform = &default_transform;
     };
 
-    kscan: kscan {
-        compatible = "zmk,kscan-gpio-matrix";
-        diode-direction = "col2row";
-        wakeup-source;
-    };
     /* 2つのマトリクス状態を1つに統合する親ノード */
     kscan0: kscan_composite {
         compatible = "zmk,kscan-composite";
