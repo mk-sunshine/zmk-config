@@ -93,34 +93,3 @@
 
 
 
-/***************************** 
- 5V Boost
- ****************************/
-/ {
-    /*
-     * 5V昇圧IC（Boost）の制御ピン（D7 / P1.12）の定義
-     * ポート1の12番ピンなので、gpio1 の 12番 を指定します。
-     */
-    boost_en: boost_en {
-        compatible = "regulator-fixed";
-        label = "5V_BOOST_EN";
-        /* 
-         * gpio1: ポート1 (P1.xx) 
-         * 12: ピン番号12 (P1.12)
-         * GPIO_ACTIVE_HIGH: Highで昇圧ICがONになる回路を想定
-         */
-        gpio = <&gpio1 12 GPIO_ACTIVE_HIGH>;
-        regulator-name = "boost_en";
-        enable-active-high;
-    };
-
-    /*
-     * ZMKの外部電源管理（ext-power）システムに昇圧ピンを紐付けます。
-     * これにより、LEDのON/OFFやスリープ状態と連動してD7ピンが自動制御されます。
-     */
-    ext-power {
-        compatible = "zmk,ext-power-generic";
-        label = "EXT_POWER";
-        control-gpios = <&gpio1 12 GPIO_ACTIVE_HIGH>;
-    };
-};
