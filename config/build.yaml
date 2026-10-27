@@ -1,5 +1,0 @@
-include:
-  - board: seeeduino_xiao_ble
-    shield: mks_mkb1_left
-  - board: seeeduino_xiao_ble
-    shield: mks_mkb1_right
