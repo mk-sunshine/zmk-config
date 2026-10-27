@@ -1,4 +1,4 @@
-if ZMK_KEYBOARD_YOUR_KEYBOARD
+if SHIELD_MKS_MKB1_LEFT
 
 config ZMK_POINTING
     default y
@@ -7,4 +7,3 @@ config IQS7211E
     default y
 
 endif
-
