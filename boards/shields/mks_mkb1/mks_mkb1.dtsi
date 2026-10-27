@@ -3,7 +3,7 @@
 
 / {
     chosen {
-        zmk,physical-layout = &default_transform;
+        zmk,matrix-transform = &default_transform;
     };
 
     kscan: kscan {
@@ -36,8 +36,8 @@
         compatible = "zmk,kscan-gpio-matrix";
         diode-direction = "col2row";
         row-gpios
-            = <&xiaoble_d 3 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // 論理ROW0 (物理ROW0)
-            , <&xiaoble_d 4 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // 論理ROW2 (物理ROW1)
+            = <&xiao_d 3 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // 論理ROW0 (物理ROW0)
+            , <&xiao_d 4 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // 論理ROW2 (物理ROW1)
             ;
         col-gpios = <&shift_reg 0 GPIO_ACTIVE_HIGH>
                   , <&shift_reg 1 GPIO_ACTIVE_HIGH>
@@ -55,8 +55,8 @@
         compatible = "zmk,kscan-gpio-matrix";
         diode-direction = "row2col"; // 電流の向きが反転
         row-gpios
-            = <&xiaoble_d 3 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>   // 論理ROW1 (物理ROW0)
-            , <&xiaoble_d 4 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>   // 論理ROW3 (物理ROW1)
+            = <&xiao_d 3 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>   // 論理ROW1 (物理ROW0)
+            , <&xiao_d 4 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>   // 論理ROW3 (物理ROW1)
             ;
         col-gpios = <&shift_reg 0 GPIO_ACTIVE_LOW>
                   , <&shift_reg 1 GPIO_ACTIVE_LOW>

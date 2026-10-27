@@ -15,7 +15,7 @@
     sck-pin = <0>;  // D0ピン：SRCLK (Serial Clock)
     mosi-pin = <2>; // D2ピン：SER (Serial Data Input)
     /* RCLK (Latch) はSPIのCS(Chip Select)ピンとして定義します */
-    cs-gpios = <&xiaoble_d 1 GPIO_ACTIVE_LOW>; // D1ピン：RCLK
+    cs-gpios = <&xiao_d 1 GPIO_ACTIVE_LOW>; // D1ピン：RCLK
 
     /* シフトレジスタをGPIOエクスパンダとして動作させるノード定義 */
     shift_reg: 74hc595@0 {

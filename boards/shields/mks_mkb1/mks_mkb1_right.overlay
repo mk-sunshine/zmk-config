@@ -13,7 +13,7 @@
     
     sck-pin = <0>;  // D0ピン：SRCLK
     mosi-pin = <2>; // D2ピン：SER
-    cs-gpios = <&xiaoble_d 1 GPIO_ACTIVE_LOW>; // D1ピン：RCLK
+    cs-gpios = <&xiao_d 1 GPIO_ACTIVE_LOW>; // D1ピン：RCLK
 
     shift_reg: 74hc595@0 {
         compatible = "st,74hc595";
