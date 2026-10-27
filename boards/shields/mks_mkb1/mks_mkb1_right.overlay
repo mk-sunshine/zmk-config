@@ -15,13 +15,13 @@
     mosi-pin = <2>; // D2ピン：SER
     cs-gpios = <&xiao_d 1 GPIO_ACTIVE_LOW>; // D1ピン：RCLK
 
-    shift_reg: 74hc595@0 {
-        compatible = "st,74hc595";
+    shift_reg: 595@0 {
+        compatible = "zmk,gpio-595";
+        status = "okay";
         reg = <0>;
-        label = "SHIFT_REG";
+        spi-max-frequency = <200000>;
         gpio-controller;
         #gpio-cells = <2>;
         ngpios = <8>;
-        spi-max-frequency = <1000000>;
     };
 };
