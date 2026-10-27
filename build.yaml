@@ -1,11 +1,3 @@
-board: [ "xiao_ble" ]
-shield: [ "mks_mkb1_left", "mks_mkb1_right" ]
 include:
-   - board: seeeduino_xiao_ble
-     shield: mks_mkb1
-   - board: seeeduino_xiao_ble
-     shield: mks_mkb1
-     cmake-args: -DCONFIG_ZMK_USB_LOGGING=y
-     artifact-name: mks_mkb1_left
-   - board: seeeduino_xiao_ble
-     shield: settings_reset
+  - board: xiao_ble/nrf52840/zmk
+    shield: mks_mkb1_left

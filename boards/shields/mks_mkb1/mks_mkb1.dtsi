@@ -1,5 +1,4 @@
 #include <dt-bindings/zmk/matrix_transform.h>
-#include "mks_mkb1.dtsi"
 #include <dt-bindings/led/led.h>
 
 / {
@@ -70,26 +69,6 @@
                   ;
     };
 
-    /* 2つのマトリクス状態を1つに統合する親ノード */
-    kscan0: kscan_composite {
-        compatible = "zmk,kscan-composite";
-        label = "KSCAN";
-        rows = <4>;
-        columns = <8>;
-
-        /* 順方向のペアリング（論理ROW 0 と 論理ROW 2） */
-        matrix_forward {
-            kscan = <&kscan_fw>;
-            row-offset = <0>; // 論理行 0, 2 としてマッピング
-        };
-
-        /* 逆方向のペアリング（論理ROW 1 と 論理ROW 3） */
-        matrix_backward {
-            kscan = <&kscan_bw>;
-            row-offset = <1>; // 論理行 1, 3 としてマッピング
-        };
-    };
-
     default_transform: keymap_transform_0 {
         compatible = "zmk,matrix-transform";
         columns = <8>; // シフトレジスタの8列
@@ -117,109 +96,7 @@
     };
 };
 
-/***************************** 
- trackpad
- ****************************/
-&pinctrl {
-    i2c0_default: i2c0_default {
-        group1 {
-            psels = <NRF_PSEL(TWIM_SDA, 0, 17)>,
-                    <NRF_PSEL(TWIM_SCL, 0, 20)>;
-            bias-pull-up;
-        };
-    };
 
-    i2c0_sleep: i2c0_sleep {
-        group1 {
-            psels = <NRF_PSEL(TWIM_SDA, 0, 17)>,
-                    <NRF_PSEL(TWIM_SCL, 0, 20)>;
-            bias-pull-up;
-            low-power-enable;
-        };
-    };
-};
-
-&i2c0 {
-    status = "okay";
-    compatible = "nordic,nrf-twim";
-    pinctrl-0 = <&i2c0_default>;
-    pinctrl-1 = <&i2c0_sleep>;
-    pinctrl-names = "default", "sleep";
-    clock-frequency = <I2C_BITRATE_FAST>;
-    zephyr,concat-buf-size = <32>;
-
-    trackpad: trackpad@56 {
-        status = "okay";
-        compatible = "azoteq,iqs7211e";
-        reg = <0x56>;
-        irq-gpios = <&xiaoble_d 10 GPIO_PULL_UP>;
-        /* 基板の回路設計で、XIAO BLEの「3V3」ピンからトラックパッドのVDDへ直接配線している場合power-gpios は記述しない */
-        /* power-gpios = <&gpio0 22 GPIO_ACTIVE_HIGH>;*/
-        scroller-mode;
-        // v-invert;
-    };
-};
-
-&i2c1 {
-  trackpad1: trackpad@56 {
-    status = "okay";
-    compatible = "azoteq,iqs7211e";
-    reg = <0x56>;
-    irq-gpios = <&xiaoble_d 10 GPIO_ACTIVE_LOW>;
-    init-symbol = "trackpad1_iqs7211e_init";
-  };
-};
-
-
-
-/***************************** 
- LED
- ****************************/
-/ {
-    /* 
-     * ZMKのRGB Underglowシステムに対して、
-     * 制御対象となるLEDストリップ（&led_strip）を紐付けます
-     */
-    chosen {
-        zmk,underglow = &led_strip;
-    };
-};
-
-/* 
- * D6ピンをSPIのデータ出力（MOSI）として利用するための設定
- */
-&spi1 {
-    compatible = "nordic,nrf-spim";
-    status = "okay";
-    
-    /* 
-     * D6ピン（P1.11）をMOSIピンとして正しくアサイン
-     * nRF52840ではポート1のピンは「32 + ピン番号」で数えるため、32 + 11 = 43 となります。
-     */
-    mosi-pin = <43>; 
-    
-    /* SPI通信を極小化するため、不必要なMISOやSCKは無効（未使用ピン）に設定 */
-    sck-pin = <0xFFFFFFFF>;
-    miso-pin = <0xFFFFFFFF>;
-
-    /* LEDストリップ（SK6805）のノード定義 */
-    led_strip: ws2812@0 {
-        compatible = "worldsemi,ws2812-spi";
-        label = "SK6805";
-        reg = <0>; /* SPIのチップセレクト（ダミー） */
-        spi-max-frequency = <4000000>;
-
-        /* 重要：15個のLEDが直列されている仕様を指定 */
-        chain-length = <15>; 
-        
-        /* カラー順序（SK6805-EC20は一般的に「緑・赤・青」の順でデータを要求します） */
-        color-mapping = <LED_COLOR_CHANNELS_RGB>; 
-        /* 
-         * ※もし色が「赤と緑が逆」になる場合は、上記を 
-         * color-mapping = <LED_COLOR_CHANNELS_GRB>; に変更してください。
-         */
-    };
-};
 
 /***************************** 
  5V Boost
