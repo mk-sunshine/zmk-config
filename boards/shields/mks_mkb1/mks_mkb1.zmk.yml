@@ -2,6 +2,7 @@ file_format: "1"
 id: mks_mkb1
 name: "MKS_MKB1"
 type: keyboard
+requires: [seeeduino_xiao_ble]
 siblings:
   - mks_mkb1_left
   - mks_mkb1_right
