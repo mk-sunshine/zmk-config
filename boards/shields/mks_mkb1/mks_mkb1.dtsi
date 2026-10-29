@@ -13,26 +13,26 @@
         rows = <4>;
         columns = <8>;
 
-        /* 順方向のペアリング（論理ROW 0 と 論理ROW 2） */
+        /* 列側Anode -> 行側Cathode (論理ROW 1 と 論理ROW 3) */
         matrix_forward {
             kscan = <&kscan_fw>;
-            row-offset = <0>; // 論理行 0, 2 としてマッピング
+            row-offset = <1>;
         };
 
-        /* 逆方向のペアリング（論理ROW 1 と 論理ROW 3） */
+        /* 行側Anode -> 列側Cathode (論理ROW 0 と 論理ROW 2) */
         matrix_backward {
             kscan = <&kscan_bw>;
-            row-offset = <1>; // 論理行 1, 3 としてマッピング
+            row-offset = <0>;
         };
     };
 
-    /* 順方向用（Anode -> Cathode）マトリクス：2行×8列 */
+    /* 列側Anode -> 行側Cathode のマトリクス：2行×8列 */
     kscan_fw: kscan_forward {
         compatible = "zmk,kscan-gpio-matrix";
         diode-direction = "col2row";
         row-gpios
-            = <&xiao_d 3 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // 論理ROW0 (物理ROW0)
-            , <&xiao_d 4 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // 論理ROW2 (物理ROW1)
+            = <&xiao_d 3 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // 子ROW0 (物理ROW0)
+            , <&xiao_d 4 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // 子ROW1 (物理ROW1)
             ;
         col-gpios = <&shift_reg 0 GPIO_ACTIVE_HIGH>
                   , <&shift_reg 1 GPIO_ACTIVE_HIGH>
@@ -45,13 +45,13 @@
                   ;
     };
 
-    /* 逆方向用（Cathode -> Anode）マトリクス：2行×8列 */
+    /* 行側Anode -> 列側Cathode のマトリクス：2行×8列 */
     kscan_bw: kscan_backward {
         compatible = "zmk,kscan-gpio-matrix";
         diode-direction = "row2col"; // 電流の向きが反転
         row-gpios
-            = <&xiao_d 3 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>   // 論理ROW1 (物理ROW0)
-            , <&xiao_d 4 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>   // 論理ROW3 (物理ROW1)
+            = <&xiao_d 3 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>   // 子ROW0 (物理ROW0)
+            , <&xiao_d 4 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>   // 子ROW1 (物理ROW1)
             ;
         col-gpios = <&shift_reg 0 GPIO_ACTIVE_LOW>
                   , <&shift_reg 1 GPIO_ACTIVE_LOW>
@@ -90,6 +90,4 @@
         >;
     };
 };
-
-
 
