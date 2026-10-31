@@ -4,3 +4,10 @@ config MKS_MKB1_BOOT_LED
     help
       Blink the XIAO BLE onboard RGB LEDs at startup to confirm the firmware
       has booted.
+
+config MKS_MKB1_595_DIAGNOSTIC
+    bool "MKS MKB1 74HC595 diagnostic mode"
+    depends on MKS_MKB1_BOOT_LED
+    help
+      Disable normal key scanning and slowly toggle the COL1 output for
+      multimeter-based matrix diagnostics.
