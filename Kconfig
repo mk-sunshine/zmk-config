@@ -1,0 +1,6 @@
+config MKS_MKB1_BOOT_LED
+    bool "MKS MKB1 startup LED indicator"
+    depends on GPIO
+    help
+      Blink the XIAO BLE onboard RGB LEDs at startup to confirm the firmware
+      has booted.
