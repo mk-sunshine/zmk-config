@@ -14,6 +14,8 @@ static const struct gpio_dt_spec leds[] = {
     GPIO_DT_SPEC_GET(DT_ALIAS(led2), gpios),
 };
 
+static int set_leds(bool red, bool green, bool blue);
+
 #if CONFIG_MKS_MKB1_595_DIAGNOSTIC
 static const struct gpio_dt_spec columns[] = {
     GPIO_DT_SPEC_GET_BY_IDX(DT_NODELABEL(kscan_fw), col_gpios, 0),
@@ -72,9 +74,15 @@ static void run_595_diagnostic(void)
         if (set_column(1) < 0) {
             return;
         }
+        if (set_leds(true, false, false) < 0) {
+            return;
+        }
         k_msleep(1500);
 
         if (set_column(ARRAY_SIZE(columns)) < 0) {
+            return;
+        }
+        if (set_leds(false, false, false) < 0) {
             return;
         }
         k_msleep(1500);

@@ -1,5 +1,3 @@
 include:
   - board: xiao_ble/nrf52840/zmk
     shield: mks_mkb1_left
-  - board: xiao_ble/nrf52840/zmk
-    shield: mks_mkb1_right
