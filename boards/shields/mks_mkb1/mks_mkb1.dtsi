@@ -6,27 +6,21 @@
         zmk,matrix-transform = &default_transform;
     };
 
-    /* 2つのマトリクス状態を1つに統合する親ノード */
+    /* 片方向スキャンの診断用。論理ROW 1 と ROW 2 のキーだけを読む。 */
     kscan0: kscan_composite {
         compatible = "zmk,kscan-composite";
         label = "KSCAN";
         rows = <4>;
         columns = <8>;
 
-        /* 列側Anode -> 行側Cathode (論理ROW 1 と 論理ROW 3) */
+        /* 列側Anode -> 行側Cathode */
         matrix_forward {
             kscan = <&kscan_fw>;
             row-offset = <1>;
         };
-
-        /* 行側Anode -> 列側Cathode (論理ROW 0 と 論理ROW 2) */
-        matrix_backward {
-            kscan = <&kscan_bw>;
-            row-offset = <0>;
-        };
     };
 
-    /* 列側Anode -> 行側Cathode のマトリクス：2行×8列 */
+    /* 74HC595は出力専用のため、col2row方向だけで走査する。 */
     kscan_fw: kscan_forward {
         compatible = "zmk,kscan-gpio-matrix";
         diode-direction = "col2row";
@@ -42,25 +36,6 @@
                   , <&shift_reg 5 GPIO_ACTIVE_HIGH>
                   , <&shift_reg 6 GPIO_ACTIVE_HIGH>
                   , <&shift_reg 7 GPIO_ACTIVE_HIGH>
-                  ;
-    };
-
-    /* 行側Anode -> 列側Cathode のマトリクス：2行×8列 */
-    kscan_bw: kscan_backward {
-        compatible = "zmk,kscan-gpio-matrix";
-        diode-direction = "row2col"; // 電流の向きが反転
-        row-gpios
-            = <&xiao_d 3 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>   // 子ROW0 (物理ROW0)
-            , <&xiao_d 4 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>   // 子ROW1 (物理ROW1)
-            ;
-        col-gpios = <&shift_reg 0 GPIO_ACTIVE_LOW>
-                  , <&shift_reg 1 GPIO_ACTIVE_LOW>
-                  , <&shift_reg 2 GPIO_ACTIVE_LOW>
-                  , <&shift_reg 3 GPIO_ACTIVE_LOW>
-                  , <&shift_reg 4 GPIO_ACTIVE_LOW>
-                  , <&shift_reg 5 GPIO_ACTIVE_LOW>
-                  , <&shift_reg 6 GPIO_ACTIVE_LOW>
-                  , <&shift_reg 7 GPIO_ACTIVE_LOW>
                   ;
     };
 
@@ -90,4 +65,3 @@
         >;
     };
 };
-
